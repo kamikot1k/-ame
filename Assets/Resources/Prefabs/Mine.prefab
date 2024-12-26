@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1558856768138275409}
   - component: {fileID: 2251282027865893993}
   - component: {fileID: 1933455698141882868}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,6 +105,8 @@ MonoBehaviour:
   _price: 100
   _priceModifier: 2
   _originalPrefab: {fileID: 9152741086448695794}
+  _building:
+    _buildingSettings: []
 --- !u!114 &1558856768138275409
 MonoBehaviour:
   m_ObjectHideFlags: 0

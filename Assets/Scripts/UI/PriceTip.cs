@@ -6,21 +6,28 @@ using UnityEngine;
 public class PriceTip : MonoBehaviour
 {
     [SerializeField] private Text _tip;
-    [SerializeField] private GameObject _buildingPrefab;
+    [SerializeField] private GameObject _prefab;
 
     public void mouseEnterEvent()
     {
-        foreach(Buildings i in Camera.main.gameObject.GetComponent<MoneyController>()._buildings)
+        if (_prefab.layer == 3)
         {
-            if (i.BuildingSettings[0]._name == _buildingPrefab.name)
+            foreach (Buildings i in Camera.main.gameObject.GetComponent<MoneyController>()._buildings)
             {
-                _tip.text = i.BuildingSettings[0]._price.ToString();
+                if (i.BuildingSettings[0]._name == _prefab.name)
+                {
+                    _tip.text = i.BuildingSettings[0]._price.ToString();
+                }
             }
+        }
+        else
+        {
+            _tip.text = _prefab.GetComponent<Pawn>()._price.ToString();
         }
     }
 
     public void mouseExitEvent()
     {
-        _tip.text = _buildingPrefab.name;
+        _tip.text = _prefab.name;
     }
 }

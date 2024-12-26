@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7692992127329900033}
   - component: {fileID: 1933455698141882868}
   - component: {fileID: 1131141459437193863}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,6 +104,8 @@ MonoBehaviour:
   _price: 50
   _priceModifier: 1
   _originalPrefab: {fileID: 9152741086448695794}
+  _building:
+    _buildingSettings: []
 --- !u!61 &1933455698141882868
 BoxCollider2D:
   m_ObjectHideFlags: 0

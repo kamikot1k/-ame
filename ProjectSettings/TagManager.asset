@@ -9,11 +9,11 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ' Building'
   - Water
   - UI
-  - 
-  - 
+  - Pawn
+  - Ground
   - 
   - 
   - 

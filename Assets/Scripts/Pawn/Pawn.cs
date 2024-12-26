@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Pawn : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class Pawn : MonoBehaviour
     [SerializeField] private float _attackCooldown;
     [SerializeField] private float _attackTime;
 
+    public float _price;
+
     [SerializeField] private GameObject _projectilePrefab;
     [SerializeField] private float _projectileMaxSpeed;
     [SerializeField] private float _projectileForce;
@@ -28,6 +31,7 @@ public class Pawn : MonoBehaviour
 
     private Rigidbody2D _rb;
     private SpriteRenderer _sr;
+    private NavMeshAgent _agent;
     private Animator animator;
     public GameObject[] _enemies;
     public GameObject _nearestEnemy;
@@ -35,10 +39,17 @@ public class Pawn : MonoBehaviour
 
     private void Start()
     {
+        PawnSelectionManager.Instance.allPawns.Add(gameObject);
         _rb = GetComponent<Rigidbody2D>();
         _sr = GetComponent<SpriteRenderer>();
+        _agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
         _enemies = GameObject.FindGameObjectsWithTag(_enemyTeam);
+    }
+
+    private void OnDestroy()
+    {
+        PawnSelectionManager.Instance.allPawns.Remove(gameObject);
     }
 
     private void Update()
@@ -54,7 +65,7 @@ public class Pawn : MonoBehaviour
             _attackTime += Time.deltaTime;
         }
 
-        if (_nearestEnemy != null && Vector2.Distance(transform.position, _nearestEnemy.transform.position) <= _visibleDistance && Vector2.Distance(transform.position, GetClosestEnemy(_enemies).transform.position) > _attackRange && _attackTime >= _attackCooldown && isDying == false)
+        if (_nearestEnemy != null && Vector2.Distance(transform.position, _nearestEnemy.transform.position) <= _visibleDistance && Vector2.Distance(transform.position, GetClosestEnemy(_enemies).transform.position) > _attackRange && _attackTime >= _attackCooldown && isDying == false && _agent.destination == null)
         {
             animator.SetBool("isRun", true);
             animator.SetBool("Attack", false);
@@ -73,7 +84,7 @@ public class Pawn : MonoBehaviour
             animator.SetBool("isRun", false);
             animator.SetBool("Attack", false);
         }
-        if (_nearestEnemy != null && Vector2.Distance(transform.position, _nearestEnemy.transform.position) <= _attackRange && _attackTime >= _attackCooldown && isDying == false)
+        if (_nearestEnemy != null && Vector2.Distance(transform.position, _nearestEnemy.transform.position) <= _attackRange && _attackTime >= _attackCooldown && isDying == false && _agent.destination == null)
         {
             if (transform.position.x < _nearestEnemy.transform.position.x)
             {
