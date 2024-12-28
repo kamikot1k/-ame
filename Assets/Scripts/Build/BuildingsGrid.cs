@@ -1,4 +1,6 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class BuildingsGrid : MonoBehaviour
 {
@@ -25,7 +27,15 @@ public class BuildingsGrid : MonoBehaviour
         {
             Destroy(flyingBuilding.gameObject);
         }
-        flyingBuilding = Instantiate(buildingPrefab);
+        if (Camera.main.gameObject.GetComponent<MoneyController>()._moneyCount >= buildingPrefab.GetComponent<Building>()._price)
+        {
+            flyingBuilding = Instantiate(buildingPrefab);
+            flyingBuilding.GetComponent<NavMeshObstacle>().enabled = false;
+            if (flyingBuilding.GetComponent<Barracks>() != null)
+            {
+                flyingBuilding.GetComponent<Barracks>().enabled = false;
+            }
+        }
     }
 
     private void Update()
@@ -54,7 +64,7 @@ public class BuildingsGrid : MonoBehaviour
                 flyingBuilding.transform.position = new Vector3(x, y, 0);
                 flyingBuilding.SetTransparent(available);
 
-                if (available && Input.GetMouseButtonDown(0) && Camera.main.gameObject.GetComponent<MoneyController>()._moneyCount >= flyingBuilding.GetComponent<Building>()._price)
+                if (available && Input.GetMouseButtonDown(0))
                 {
                     Camera.main.gameObject.GetComponent<MoneyController>()._moneyCount -= flyingBuilding.GetComponent<Building>()._price;
                     if (flyingBuilding.GetComponent<Mine>() != null)
@@ -64,6 +74,11 @@ public class BuildingsGrid : MonoBehaviour
                     flyingBuilding.GetComponent<Building>()._building.BuildingSettings[0]._price *= flyingBuilding.GetComponent<Building>()._priceModifier;
                     Camera.main.gameObject.GetComponent<MoneyController>()._moneyCountText.text = Camera.main.gameObject.GetComponent<MoneyController>()._moneyCount.ToString();
                     flyingBuilding.GetComponent<Renderer>().sortingOrder = 0;
+                    flyingBuilding.GetComponent<NavMeshObstacle>().enabled = true;
+                    if (flyingBuilding.GetComponent<Barracks>() != null)
+                    {
+                        flyingBuilding.GetComponent<Barracks>().enabled = true;
+                    }
                     PlaceFlyingBuilding(x, y);
                 }
             }

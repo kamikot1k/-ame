@@ -17,6 +17,7 @@ public class Pawn : MonoBehaviour
     [SerializeField] private float _attackTime;
 
     public float _price;
+    public float _trainTime;
 
     [SerializeField] private GameObject _projectilePrefab;
     [SerializeField] private float _projectileMaxSpeed;
@@ -65,11 +66,11 @@ public class Pawn : MonoBehaviour
             _attackTime += Time.deltaTime;
         }
 
-        if (_nearestEnemy != null && Vector2.Distance(transform.position, _nearestEnemy.transform.position) <= _visibleDistance && Vector2.Distance(transform.position, GetClosestEnemy(_enemies).transform.position) > _attackRange && _attackTime >= _attackCooldown && isDying == false && _agent.destination == null)
+        if (_nearestEnemy != null && Vector2.Distance(transform.position, _nearestEnemy.transform.position) <= _visibleDistance && Vector2.Distance(transform.position, GetClosestEnemy(_enemies).transform.position) > _attackRange && _attackTime >= _attackCooldown && isDying == false && GetComponent<PawnMovement>()._priorityMovement == false)
         {
             animator.SetBool("isRun", true);
             animator.SetBool("Attack", false);
-            transform.position = Vector2.MoveTowards(transform.position, _nearestEnemy.transform.position, _speed * Time.deltaTime);
+            _agent.SetDestination(_nearestEnemy.transform.position);
             if (transform.position.x < _nearestEnemy.transform.position.x)
             {
                 _sr.flipX = false;
@@ -81,10 +82,13 @@ public class Pawn : MonoBehaviour
         }
         if (_nearestEnemy == null || Vector2.Distance(_nearestEnemy.transform.position, transform.position) > _visibleDistance || _attackTime < _attackCooldown || isDying == true)
         {
-            animator.SetBool("isRun", false);
+            if (GetComponent<PawnMovement>()._priorityMovement == false && GetComponent<PawnMovement>()._isMovement == false)
+            {
+                animator.SetBool("isRun", false);
+            }
             animator.SetBool("Attack", false);
         }
-        if (_nearestEnemy != null && Vector2.Distance(transform.position, _nearestEnemy.transform.position) <= _attackRange && _attackTime >= _attackCooldown && isDying == false && _agent.destination == null)
+        if (_nearestEnemy != null && Vector2.Distance(transform.position, _nearestEnemy.transform.position) <= _attackRange && _attackTime >= _attackCooldown && isDying == false && GetComponent<PawnMovement>()._priorityMovement == false)
         {
             if (transform.position.x < _nearestEnemy.transform.position.x)
             {
@@ -94,8 +98,13 @@ public class Pawn : MonoBehaviour
             {
                 _sr.flipX = true;
             }
+            _agent.SetDestination(transform.position);
             animator.SetBool("isRun", false);
             animator.SetBool("Attack", true);
+            if (GameObject.FindGameObjectWithTag("Ground").GetComponent<PawnSelectionManager>().selectedPawns.Contains(gameObject))
+            {
+                GameObject.FindGameObjectWithTag("Ground").GetComponent<PawnSelectionManager>()._destinationMarker.SetActive(false);
+            }
         }
     }
 

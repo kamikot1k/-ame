@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 7684322539301171667}
   m_Layer: 6
   m_Name: spearman
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,10 +111,11 @@ MonoBehaviour:
   _knockbackDelay: 0.15
   _attackRange: 1
   _visibleDistance: 16
-  _enemyTeam: Player
+  _enemyTeam: Enemy
   _attackCooldown: 1
   _attackTime: 1
-  _price: 0
+  _price: 100
+  _trainTime: 1
   _projectilePrefab: {fileID: 0}
   _projectileMaxSpeed: 0
   _projectileForce: 0
@@ -148,11 +149,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8072109330089501254}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b98c147d27971ed4f8f43bde54f1f8e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _sr: {fileID: 0}
+  _agent: {fileID: 0}
+  _animator: {fileID: 0}
+  _priorityMovement: 0
+  _isMovement: 0
+  _isMovementAvailable: 0
   _groundMask:
     serializedVersion: 2
     m_Bits: 128
@@ -251,7 +258,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 8072109330089501254}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.28125
+  m_Radius: 0.28
   m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50

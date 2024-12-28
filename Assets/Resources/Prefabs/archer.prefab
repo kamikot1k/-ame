@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3611763771702930286}
   - component: {fileID: 4809412841191844445}
   - component: {fileID: 2819307211747139177}
+  - component: {fileID: 619942150732426697}
   - component: {fileID: 8490987363421778720}
   m_Layer: 6
   m_Name: archer
@@ -113,7 +114,8 @@ MonoBehaviour:
   _enemyTeam: Enemy
   _attackCooldown: 1
   _attackTime: 1
-  _price: 0
+  _price: 200
+  _trainTime: 2
   _projectilePrefab: {fileID: 938457399160743683, guid: 0252a18977a08ab4aae0090a421b3e0f, type: 3}
   _projectileMaxSpeed: 10
   _projectileForce: 20
@@ -210,11 +212,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1892789885712902671}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b98c147d27971ed4f8f43bde54f1f8e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _sr: {fileID: 0}
+  _agent: {fileID: 0}
+  _animator: {fileID: 0}
+  _priorityMovement: 0
+  _isMovement: 0
+  _isMovementAvailable: 0
   _groundMask:
     serializedVersion: 2
     m_Bits: 128
@@ -304,6 +312,28 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5625, y: 0.5}
   m_EdgeRadius: 0
+--- !u!195 &619942150732426697
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892789885712902671}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.28125
+  m_Speed: 1.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 360
+  m_StoppingDistance: 1
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.5
+  m_BaseOffset: 0.25
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!95 &8490987363421778720
 Animator:
   serializedVersion: 5

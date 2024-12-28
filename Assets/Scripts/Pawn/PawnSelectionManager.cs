@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class PawnSelectionManager : MonoBehaviour
 {
@@ -12,8 +13,9 @@ public class PawnSelectionManager : MonoBehaviour
 
     [SerializeField] private LayerMask _pawnMask;
     [SerializeField] private LayerMask _groundMask;
-    [SerializeField] private GameObject _destinationMarker;
+    public GameObject _destinationMarker;
     private Camera _camera;
+
 
     private void Awake()
     {
@@ -59,13 +61,42 @@ public class PawnSelectionManager : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButton(1) && selectedPawns.Count > 0)
+        if (Input.GetMouseButtonDown(1) && selectedPawns.Count > 0)
         {
             Vector3 ray = _camera.ScreenToWorldPoint(Input.mousePosition);
             RaycastHit2D _hit = Physics2D.Raycast(ray, Vector2.zero, Mathf.Infinity, _groundMask);
 
             if (_hit)
             {
+                List<Vector3> _targetPositionList = GetPositionListAround(_hit.point, new float[] { 0.8f, 1.6f, 2.4f, 3.2f, 4f, 4.8f, 5.6f, 6.4f, 7.2f }, new int[] { 5, 10, 20, 30, 40, 50, 60, 70, 80 });
+
+                int _targetPositionListIndex = 0;
+
+                foreach (GameObject pawn in selectedPawns)
+                {
+                    if (pawn.GetComponent<PawnMovement>()._isMovementAvailable == true)
+                    {
+                        pawn.GetComponent<PawnMovement>()._agent.SetDestination(_targetPositionList[_targetPositionListIndex]);
+
+                        if (Input.GetKey(KeyCode.R))
+                        {
+                            pawn.GetComponent<PawnMovement>()._priorityMovement = true;
+                        }
+                        pawn.GetComponent<PawnMovement>()._isMovement = true;
+                        pawn.GetComponent<PawnMovement>()._animator.SetBool("isRun", pawn.GetComponent<PawnMovement>()._isMovement);
+
+                        if (_hit.point.x > pawn.transform.position.x)
+                        {
+                            pawn.GetComponent<PawnMovement>()._sr.flipX = false;
+                        }
+                        else if (_hit.point.x < pawn.transform.position.x)
+                        {
+                            pawn.GetComponent<PawnMovement>()._sr.flipX = true;
+                        }
+                        _targetPositionListIndex = (_targetPositionListIndex + 1) % _targetPositionList.Count;
+                    }
+                }
+
                 _destinationMarker.transform.position = _hit.point;
                 _destinationMarker.SetActive(true);
             }
@@ -77,14 +108,21 @@ public class PawnSelectionManager : MonoBehaviour
         if (selectedPawns.Contains(pawn) == false)
         {
             selectedPawns.Add(pawn);
-            TriggerSelectSprite(pawn, true);
-            EnablePawnMovement(pawn, true);
+            SelectPawn(pawn, true);
         }
         else
         {
-            EnablePawnMovement(pawn, false);
-            TriggerSelectSprite(pawn, false);
+            SelectPawn(pawn, false);
             selectedPawns.Remove(pawn);
+        }
+    }
+
+    internal void DragSelect(GameObject pawn)
+    {
+        if (selectedPawns.Contains (pawn) == false)
+        {
+            selectedPawns.Add (pawn);
+            SelectPawn(pawn, true);
         }
     }
 
@@ -94,21 +132,28 @@ public class PawnSelectionManager : MonoBehaviour
 
         selectedPawns.Add(pawn);
 
-        TriggerSelectSprite(pawn, true);
-        EnablePawnMovement(pawn, true);
+        SelectPawn(pawn, true);
+    }
+
+    public void SelectPawn(GameObject pawn, bool isSelect)
+    {
+        TriggerSelectSprite(pawn, isSelect);
+        EnablePawnMovement(pawn, isSelect);
     }
 
     private void EnablePawnMovement(GameObject pawn, bool trigger)
     {
-        pawn.GetComponent<PawnMovement>().enabled = trigger;
+        pawn.GetComponent<PawnMovement>()._isMovementAvailable = trigger;
     }
 
     private void DeselectAll()
     {
         foreach (var pawn in selectedPawns)
         {
-            EnablePawnMovement(pawn, false);
-            TriggerSelectSprite(pawn, false);
+            if (pawn != null)
+            {
+                SelectPawn(pawn, false);
+            }
         }
         _destinationMarker.SetActive(false);
         selectedPawns.Clear();
@@ -117,5 +162,36 @@ public class PawnSelectionManager : MonoBehaviour
     private void TriggerSelectSprite(GameObject pawn, bool isVisible)
     {
         pawn.transform.GetChild(0).gameObject.SetActive(isVisible);
+    }
+
+    private List<Vector3> GetPositionListAround(Vector3 startPosition, float[] ringDistanceArray, int[] ringPositionCountArray)
+    {
+        List<Vector3> positionList = new List<Vector3>();
+        positionList.Add(startPosition);
+        for (int i = 0; i < ringDistanceArray.Length; i++) 
+        {
+            positionList.AddRange(GetPositionListAround(startPosition, ringDistanceArray[i], ringPositionCountArray[i]));
+        }
+        return positionList;
+    }
+
+    private List<Vector3> GetPositionListAround(Vector3 startPosition, float distance, int positionCount)
+    {
+        List<Vector3> positionList = new List<Vector3>();
+
+        for (int i = 0; i < positionCount; i++)
+        {
+            float angle = i * (360f / positionCount);
+            Vector3 dir = ApplyRotationToVector(new Vector3(1, 0), angle);
+            Vector3 position = startPosition + dir * distance;
+            positionList.Add(position);
+        }
+
+        return positionList;
+    }
+
+    private Vector3 ApplyRotationToVector(Vector3 vec, float angle)
+    {
+        return Quaternion.Euler(0, 0, angle) * vec;
     }
 }

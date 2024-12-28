@@ -5,29 +5,40 @@ using UnityEngine.AI;
 
 public class PawnMovement : MonoBehaviour
 {
-    private Camera _camera;
-    NavMeshAgent _agent;
+    public SpriteRenderer _sr;
+    public NavMeshAgent _agent;
+    public Animator _animator;
+    private PawnSelectionManager _pawnSelectionManager;
+    public bool _priorityMovement = false;
+    public bool _isMovement = false;
+    public bool _isMovementAvailable;
     public LayerMask _groundMask;
 
     private void Awake()
     {
-        _camera = Camera.main;
+        _sr = GetComponent<SpriteRenderer>();
         _agent = GetComponent<NavMeshAgent>();
+        _animator = GetComponent<Animator>();
+        _pawnSelectionManager = GameObject.FindGameObjectWithTag("Ground").GetComponent<PawnSelectionManager>();
         _agent.updateRotation = false;
         _agent.updateUpAxis = false;
     }
 
     private void Update()
     {
-        if (Input.GetMouseButton(1))
+        if (Vector2.Distance(_agent.destination, transform.position) <= _agent.stoppingDistance)
         {
-            Vector3 ray = _camera.ScreenToWorldPoint(Input.mousePosition);
-            RaycastHit2D _hit = Physics2D.Raycast(ray, Vector2.zero, Mathf.Infinity, _groundMask);
-
-            if (_hit)
-            {
-                _agent.SetDestination(_hit.point);
-            }
+            _priorityMovement = false;
+            _isMovement = false;
+            _animator.SetBool("isRun", _isMovement);
+        }
+    }
+    private void OnDestroy()
+    {
+        if (gameObject && GameObject.FindGameObjectWithTag("Ground"))
+        {
+            _pawnSelectionManager.SelectPawn(gameObject, false);
+            _pawnSelectionManager.selectedPawns.Remove(gameObject);
         }
     }
 }
