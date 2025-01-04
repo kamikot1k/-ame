@@ -8,7 +8,7 @@ public class ProjectileVisual : MonoBehaviour
     [SerializeField] private Transform _projectileShadow;
     [SerializeField] private Projectile _projectile;
 
-    private GameObject _target;
+    private Vector3 _target;
     private Vector3 _trajectoryStartPosition;
 
     private float shadowPositionDivider = 6f;
@@ -24,7 +24,7 @@ public class ProjectileVisual : MonoBehaviour
         UpdateShadowPosition();
 
         float trajectoryProgressMagnitude = (transform.position - _trajectoryStartPosition).magnitude;
-        float trajectoryMagnitude = (_target.transform.position - _trajectoryStartPosition).magnitude;
+        float trajectoryMagnitude = (_target - _trajectoryStartPosition).magnitude;
 
         float trajectoryProgressNormalized = trajectoryProgressMagnitude / trajectoryMagnitude;
 
@@ -36,7 +36,7 @@ public class ProjectileVisual : MonoBehaviour
 
     private void UpdateShadowPosition()
     {
-        Vector3 trajectoryRange = _target.transform.position - _trajectoryStartPosition;
+        Vector3 trajectoryRange = _target - _trajectoryStartPosition;
         Vector3 newPosition = transform.position;
 
         if (Mathf.Abs(trajectoryRange.normalized.x) < Mathf.Abs(trajectoryRange.normalized.y))
@@ -64,7 +64,7 @@ public class ProjectileVisual : MonoBehaviour
         _projectileShadow.transform.rotation = Quaternion.Euler(0, 0, Mathf.Atan2(projectileMoveDir.y, projectileMoveDir.x) * Mathf.Rad2Deg);
     }
 
-    public void SetTarget(GameObject target)
+    public void SetTarget(Vector3 target)
     {
         this._target = target;
     }

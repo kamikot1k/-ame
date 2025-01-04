@@ -1,0 +1,6099 @@
+fileFormatVersion: 2
+guid: 757afdeda235030478a47483866f63e9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09740e41f664a04f8ba96377a0518c3
+      internalID: 884257315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b4219e24b2ae74aa241580069e944a
+      internalID: -911192901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24efc2ee7b36e7a4d8eb69602fc35b62
+      internalID: -1196998970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffa7250821edd242afb17d899a25fac
+      internalID: -991573994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1473c2f8a85b745817f2f08cabb30e
+      internalID: -275535906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99e21a47074f1647a352c28a5f77678
+      internalID: -459757710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b7f08c9f841f8429d7815b72005266
+      internalID: -2089293147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd429e6f4e9a65b4eacfb25762e0f23e
+      internalID: 1002199559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_71
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a9a7bbc0089f4419dd88b07602112b
+      internalID: -421816818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7be9d6a627746241ac7a10b9ed6e933
+      internalID: 1409546500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3866524348e10ad4094e730d6b550645
+      internalID: 730916957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_101
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645a32ccbe1ff7646bbe7ad6fbd86e69
+      internalID: -1716844780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137f3157985b3d8479be40e16c5c9750
+      internalID: 92703377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_121
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345a7557920db3342a17f9068620ac68
+      internalID: -1676536660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_122
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301e869bce978724aa7b4d48e271af6b
+      internalID: -655964913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_123
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9266e2b03f796418975ccb61ee7041
+      internalID: -483243582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_124
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cd0eb5b8a501f4bbc84ac640f15eb9
+      internalID: -1371689636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_125
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d54946ee4314264892be8e12b9518cd
+      internalID: -1872691413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_126
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a9adca04634b540b882be77f2278c7
+      internalID: 1855162774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_127
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a46bf88df4fd34429bff3639839ad04
+      internalID: 2013855397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_128
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bff977a5c03234caa00100659ef656
+      internalID: -855833253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_129
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c1c338308ccc34f924d84df38a6f4b
+      internalID: -1846913271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_130
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8660d6bcf352914fa59dc40dff02c8b
+      internalID: 730268059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_131
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc048b4dcfc56f4fb12021d8af15583
+      internalID: -1666776543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ea38a1fc645424ab01c5ab61de4e33
+      internalID: 1320825081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_151
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a658d4875986264690c195347b5584a
+      internalID: 852195232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_152
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a345c18c6a0098d4fafb691bed623b8d
+      internalID: 1525794481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_153
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0232f3a2ad841964eafad47ee602a9cd
+      internalID: -1464161406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_154
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75034cfec5574344986bdfede712cd9e
+      internalID: -775034076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_155
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c41b57c7fd31714985e8871bb4a15ba
+      internalID: 1997999145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_156
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3762fed0712f1be46840078286d25950
+      internalID: -1830124186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_157
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e264afa7dabd7943986e1f281c441c5
+      internalID: -320801796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_158
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8594dcfd83d61b49a612fdc941b4b38
+      internalID: 1121096471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_159
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f3b252b7f6d234885a9026ffa4807f
+      internalID: 224193334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_160
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be453a606b383344be1f73571a25ad3
+      internalID: -777335004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_161
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0768a5d82afd0914380328939f61b26a
+      internalID: 2097079084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7681488fd8320a849a3627ca7b1a341a
+      internalID: -636336612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_181
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5022126c6c0e51d49944cd9ad32c3031
+      internalID: 1937932135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_182
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005011f55f90f7241947b0ddb6309cfa
+      internalID: -896533365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_183
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a0e9668dcf79d4ea5f8ab56cc86fb6
+      internalID: 44653489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_184
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc80303be0f79e45a4bc3627d6d9d54
+      internalID: -938324909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_185
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbd8ff3cb9f5ad4eb9c52b6e4e954f7
+      internalID: -1896373960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_186
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514466450f2a69849a9ba2dab7edfaab
+      internalID: 1217422991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_187
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a183282bd39bd4189e60bbb37c5073
+      internalID: -1143304703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_188
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13f87341a139cf4a8dfbdd0faba7eb3
+      internalID: -1315306200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_189
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943507b213f3e5847a120cd305db6a0f
+      internalID: 537431719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_190
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c35cd72e369474e9380aadc2eba6cd
+      internalID: -605985112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_191
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449c06824a957f541a6fd4d60b7f6955
+      internalID: -758477491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b6b831816fa314b88ad674377cd5ef
+      internalID: 540347668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_211
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00de9c6265ee2c34ba74dfaee3a0ded2
+      internalID: 558783695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_212
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392d50c0e7d454c4f9c0b3541c214dc0
+      internalID: 1123299363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_213
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1386459921f5466458a691387441f69a
+      internalID: -69559639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_214
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4a1c606e964a746a67c45424c3e7cc
+      internalID: 563544988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_215
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a7025e292e1c544b5236674baba797
+      internalID: -692098957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_216
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e86c3b50b8fd6b4b97992d625d87e1f
+      internalID: -921773963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_217
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16576682e6775db44aead5cdeb86f657
+      internalID: 22822425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_218
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875b2a4b67333c9498d491ed2f1c35a1
+      internalID: -1774218527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_219
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d5581d540ca704fa6cdd60ad516cc1
+      internalID: 350638251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_220
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64821f111719475458417e96e2c271e6
+      internalID: -540411568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_221
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424284bb8be89b043885fd2019624c81
+      internalID: -1788191262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693b526c9e09a484390f76b085640310
+      internalID: -1798827424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_241
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86351fd6fed69fb4b9c82733497154fa
+      internalID: -850276236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_242
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22a0f74a9777be478533243ffbfa29b
+      internalID: 1189324225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_243
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7fa8d099d015b4a9d44be873f13dac
+      internalID: 279364762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_244
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7111addc56b967740b3166bd74bdf9a8
+      internalID: 1697351497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_245
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cf98de116c33248843b11bd776338b
+      internalID: -837056554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_246
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90f7149f7bf2234d907af4cc27f7ea8
+      internalID: 96691444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_247
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c67caf382a59eb4a8a238b50c65f0b2
+      internalID: -1182801607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_248
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1b5cd0af19a6c49a914180c1ca57e4
+      internalID: 1668616308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_249
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799ca07dde61d9f47865f6e97996ae9a
+      internalID: -2632734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_265
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402aecc4ef3e0d5468c0c8188e0f6b1c
+      internalID: 1664629532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_266
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750dd0c5a6c7c774b856bb76fd286e8f
+      internalID: 1192742929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_267
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fc5c6604769cb4981420497457d6ab
+      internalID: -1031422322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_268
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1523a4d0f08f84e80964ad0ad1813c
+      internalID: -2061713999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_269
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0112c6479fdd54dae63c433e30615c
+      internalID: 539487407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_270
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e42d2ade52fd94795dead4e03f06b4
+      internalID: -964324602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_271
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683e2863a41e75a4faf25ac5b7de9267
+      internalID: -1168053084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_272
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3f7ee889189f442a56ee1275832b66
+      internalID: 1269153356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_273
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7409038b658cab84487c30b1cd5a0bb0
+      internalID: 838130773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_274
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809a3e3c160b59c4f91dc50058cafb1d
+      internalID: -2115006489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_275
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f99a133aa8b674ab24c6f962ba3102
+      internalID: -2121042413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_276
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5dcc6dd1a472245af652834f0094b1
+      internalID: -256275691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_295
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7179cc48aa076e04690e762570b26e3b
+      internalID: 1367994328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_296
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7c3dc43d0aa6240b132acd868aeca7
+      internalID: -1464554563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_297
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd620059b7d22de47b36cef7af602af4
+      internalID: -900651959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_298
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6734fccf0265034298e20a965653d86
+      internalID: 1745957897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_299
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44dd476c94e76c44aad1c49fb6dfcdb
+      internalID: -165621394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_300
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50de64f8bc6a6a4faf6a26eaaf5ec6e
+      internalID: 268714271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_301
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7338b9eda48eb443a77926c8321c497
+      internalID: -1753455091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_302
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70370fc64900bed4aaf31afd124018fc
+      internalID: 368063412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_303
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983067d2dc3d89b458658cc42b8dc00d
+      internalID: -130353909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_304
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66df42f1a76ed364cbd24e85bd5f2387
+      internalID: -1563607229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_305
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2631f629dfa373409af4b7326dca17b
+      internalID: -401549672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_306
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4a3000de91684408004e7bc3137887
+      internalID: 1426992597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_325
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea39e78602e63ff4fab7f2610fe3fec1
+      internalID: 742827757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_326
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4084a284ef78746a5b1e42011e71a9
+      internalID: 589745764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_327
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a186430f6af4b48408f1ee93ba068804
+      internalID: -1982756033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_328
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217a7282fb868d34499c787bb9833721
+      internalID: 1191392154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_329
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846558e320569c34f9bfa888440963e7
+      internalID: 1656279773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_330
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b2c4a2b06a2cf439bbf938f0e40f8a
+      internalID: -1573334603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_331
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcba5b3697992d54c939631a657a724a
+      internalID: 268665866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_332
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0241da4bd3278a44aff3d6279531abb
+      internalID: 324773178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_333
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a7fd5e456b50c4d816b5bc5818d1f6
+      internalID: 1795406669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_334
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f9da3baaaa35e45b1aeef5ab2a68f0
+      internalID: 18417351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_335
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1184a09713a37874e80e0242269897d1
+      internalID: -556285144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_336
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c8211ba33e66c40ab30941be590b77
+      internalID: 511367553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_355
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b43c522a0b5094994e147f776112e3
+      internalID: 1000620200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_356
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85f2879f3538404ead833154b835c0d
+      internalID: -919991868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_357
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c458a6d9b508fc145b94cd10460ea9fb
+      internalID: 1099538290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_358
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab7e065f9fd95e469ab74cd22feda33
+      internalID: 1056345994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_359
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf368085495bf044da841044884f86f6
+      internalID: -1709391086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_360
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7015544c4283e2447b384882f15995ae
+      internalID: 1414086123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_361
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4d122690421c644b664fc1a1e88f92
+      internalID: -2034394455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_362
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a345b97e3603cca418694cab45de6ea0
+      internalID: 418655480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_363
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea35e8e0af22f54a957676a420c2029
+      internalID: 434861314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_364
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd8559850f82f44f9d609206113b02e
+      internalID: 1087511388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_365
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ac2d54153e9ee419e47b630ae6ffd0
+      internalID: 1852398695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_366
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23cac860d11a454292d1748ef85bfc8
+      internalID: -285897880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_385
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246c4e25b6a83c64fa118e353d1ed70c
+      internalID: 401473273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_386
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c539507852fbf478b343aac1dd2f6a
+      internalID: -1051990953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_387
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30639d1509504a4d9c7cf221998f364
+      internalID: -2104370346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_388
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fda912a95cd36419ff1ea25fbbbd7e
+      internalID: 1216539646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_389
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cfb3f08b6849242a8f27f2c0a3bfd6
+      internalID: 332488723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_390
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cd6cedb8af6b9478e583be4eea56c1
+      internalID: -245870111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_391
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f4856b33fd6204e962ba3e766c3bcd
+      internalID: 1003823105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_392
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb1e4b772142d94b8237b0f93d16aed
+      internalID: 1346242621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_393
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff49739618f48d449ebafc26ac2de58
+      internalID: 1514811947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_394
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553a479d93949c14482bb9f1ea2d4f0c
+      internalID: -574499982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_395
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa7c0f9f17c30a4eaf95fba032c485d
+      internalID: -561367245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_396
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a039843edb6ec429f45acfea6c53ab
+      internalID: 158689682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_415
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce348e404b3aa441949dcba32f94d29
+      internalID: -1295937827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_416
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df367bd896eafd74f8ca6dd722400d72
+      internalID: 656846417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_417
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9aeb49ed35cb245b6398b5c7f61f3a
+      internalID: 1517740117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_418
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ae708a8ff5a294e932d6d913884435
+      internalID: -1747448339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_419
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b3dd9d6dda8004eac5f824977ac1ce
+      internalID: -724141888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_420
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca14779916744e428bbf8f089ae9d08
+      internalID: 425380287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_421
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4022eebb114f12c4ab6f63466cb43c1a
+      internalID: 1308248409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_422
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cedaa9347c26c047b84a6ea0165d28b
+      internalID: 739398095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_423
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5827a8f2a402441a46ca2320446596
+      internalID: 1167477487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_424
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab67dcd981f46fd4f8abaad03c96e8a1
+      internalID: -916207798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_425
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22865b4a22a52c347b352d9c81f43ab4
+      internalID: 494425691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_426
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d6fac39e228904bb4fa5c27b8fb0a0
+      internalID: 769128714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_445
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1b706bec4028b41885ad17b160694e
+      internalID: 1410910361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_446
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699f22ab6f81a9c45abd07f1721cd00e
+      internalID: 1894450606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_447
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4973846d24f2d42946838df88fd5ae
+      internalID: -713066107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_448
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fba0f7771064fc46ac449b18bca2058
+      internalID: -1199297898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_449
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40e8c7d21345f84b85a9d18ab7dbc20
+      internalID: -1903098199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_450
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761f576489e7a9749828b54020074a17
+      internalID: -21726860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_451
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e905a875495c6e4cba19279e9d3ee60
+      internalID: -1032908785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_452
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fffeed1aa3cf74aa1b5f2413e09970
+      internalID: -715958621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_453
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cd86b4db924a04ea1210d7695568a6
+      internalID: -1269511156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_454
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1b90911f0c102499d39e52a57dc9d2
+      internalID: -1941289704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_455
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18be06ea410ac5848b777647f3c3b583
+      internalID: -1467968538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_456
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe1cb3c8be8fa14cbc5aacf774d3542
+      internalID: -1617049007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_475
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f7dcd6b842f6141abee572a2d04cb0
+      internalID: -704903957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_476
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfa3f09e7240504993b00fa20723cf0
+      internalID: 258586218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_477
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccad2c4e55a6852449ac370fe3ca0656
+      internalID: -1316820653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_478
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c411369d618243b4fb16a2bdd5bfd29d
+      internalID: -98078460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_479
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5855d902fed59224eadd629166eefba3
+      internalID: 2054832766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_480
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeae7c63e08e65f4fae7ac53d7fe3a12
+      internalID: 254106826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_481
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9738a2a6ac56f6f488a532929a971e2a
+      internalID: -1124779130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_482
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e39da268706574aae574cb6932dd23
+      internalID: -1784752587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_483
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ee64bbb93f1dd43b400e36c6ca72ea
+      internalID: 433486890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_484
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc3c38716078f24893cfa7fffeb36cf
+      internalID: 1251672808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_485
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8e17e5669fb1944b4aabe899dfad3a
+      internalID: -1145461436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_486
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b63a9ee844bbb44aef533d54f412f2
+      internalID: 1528903997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_505
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abb59eee7b349c4fb6b2b000f7c0bc9
+      internalID: 120978751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_506
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8501fbf59445584eaee9f5b53a60458
+      internalID: -942940758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_507
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720ccc081b18a26438b1ec41eb85d9ec
+      internalID: 1212840179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_508
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009b30c11fb71284792e991ccbdb9297
+      internalID: 357383070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_509
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0ba1bd34578de4ea4923001bfea402
+      internalID: -1390725633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_510
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8392d9274d004943b916ffeccd9b59b
+      internalID: -488362451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_511
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f2601d472c1ed48b70d4072f4db8a1
+      internalID: 2029688246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_512
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2612a9582c83734691e8af10f4e8622
+      internalID: -1031954353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_513
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34cc265e5ea5d048b2040cd4cb0c5ef
+      internalID: 309464121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_532
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858a381fa36453047a0809051b7b5765
+      internalID: 940133352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_533
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdc184bce2c22146ad40b3a7466f7bc
+      internalID: 174866680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_534
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e4d15d0db4baf43b708b8729c3d3b1
+      internalID: -1692337836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_535
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c64444b742177c448a9813155940a4f
+      internalID: -978507642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_536
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adedce651c7ffa45ab60443b4ad7470
+      internalID: -1410388377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_537
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d35fdd0a07c504c91a70bef055ff52
+      internalID: -1851234394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_538
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2480d6094f3664a955dabbff823e90
+      internalID: -534346652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_539
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e5ac04d1a4db34c923473bfacfd578
+      internalID: 1047399376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_540
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a29ea7bbf2f83d42966bab6991649b3
+      internalID: -870847298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_556
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f3c80b91c29da4da2bd1e2a405dcef
+      internalID: 1373728777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_557
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cbdf38e6c16884e8a548070c7831b8
+      internalID: -1861647802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_558
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4c9c17c1f053c42a2877eabc8352d6
+      internalID: 65156336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_559
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b80b870dfd8704eb16119248decf6d
+      internalID: -318321259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_560
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5421bb09effedda40b516800dbefb6e2
+      internalID: -1927935782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_561
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e237c94553352b438304fa4ceeb3843
+      internalID: -1828547060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_562
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7140e4d2197f241bd3c57dd6d4514e
+      internalID: 313626676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_563
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba00e5094f61714196ed8d5a40a2ee0
+      internalID: 1334223429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_564
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd27b4f883ffa442ab1c47f6ca815d1
+      internalID: -702354871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_565
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de8437c4c0567b40bc024bfe8a80f4a
+      internalID: -2101837259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_566
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b2f962ec4aa2f4a8bfd4688f78e4b8
+      internalID: 1422700607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_585
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f04171d870abbf45951798cbe693a70
+      internalID: -940631438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_586
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b67592bd25b76442b37f4d68efcd237
+      internalID: -985199255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_587
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9d5c6598e191246a77220a71d3bd07
+      internalID: -1132570598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_588
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a200a1476e44c5543aef939afea73265
+      internalID: -1907210748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_589
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c51850c0266794c922237f5571b486
+      internalID: -64344558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_590
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b02b4c2b7844b149b4690f3bbc279c1
+      internalID: 428297733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_591
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebacf04a34e9a4429978e6e2ab3ca8b
+      internalID: -1220270881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_592
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a2d0911c5383e4abf2f303ec668207
+      internalID: -1700605422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_593
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662da861400be2c48a3e9c29a6cd7bf7
+      internalID: -1046342552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_594
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97eabe02057f0644b2032ea8de04942
+      internalID: -354233886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_595
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17d1781c018d9b40914ae40e5103ed6
+      internalID: 583044915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_614
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77457ff4f166bc243b4c3160c7574c89
+      internalID: 1116526903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_615
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae0f733181205042ac18b46e28912e2
+      internalID: -407314863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_616
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27d5b5fa27472148b5d692cd5dc95ad
+      internalID: -1415691463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_617
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd9d3cc131e59b4eaba7fd26a4eecc7
+      internalID: 664868972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_618
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a818c6884db6c0842b0392a42718967d
+      internalID: -356528370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_619
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec97f25c4ac6f047890b1e2a8d7c524
+      internalID: 587257694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_620
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe6f0d7045fd4c439177a56224f9689
+      internalID: 2069624633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_621
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4852eb367617b074a9871b6452db1cb3
+      internalID: -660986260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_622
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1caf44ff555b62f4c9a3de7fa6517a5b
+      internalID: -189858754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_623
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8213a68163875449b92034fedf359c4
+      internalID: -1374370045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_624
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99566f7272d4244f8238842309f2be8
+      internalID: 1240525430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_625
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f706ed88b577894bb2f6aa9c5499282
+      internalID: 967463520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_644
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d8c08ff3570384091926acbc3fcf49
+      internalID: 1200433629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_645
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3d703dc0f4e734db79ae42f4d1fb3d
+      internalID: -2126920684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_646
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aabd24fd8ef82a4ba2e9f62808c399a
+      internalID: 56865204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_647
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3993690af1a6da146a947b78d35e3c96
+      internalID: -1990781013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_648
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb3586702cfc0b409a2e3468eed8ae9
+      internalID: 1133911287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_649
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f833481ea7b2e544f82127a55e24ae88
+      internalID: -1347950201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_650
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f227debb735e6c428cf3b7b31140b96
+      internalID: -345104493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_651
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8eb1cbb9141b748b3e391e23a9f561
+      internalID: -872119248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_652
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c04592398d4a694897699143363b135
+      internalID: -872394493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_653
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188273be93371c349aacdedac4564619
+      internalID: 261793893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_654
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf423577914449e4ea659a599c8d01de
+      internalID: -1334453111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_655
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc4bcc93af8dbc4ab5c640bdb06c175
+      internalID: 1843047913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_674
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85321fa33e119f4e9f0657b3b4ca662
+      internalID: -1986029467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_675
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbed4ff123c90d4f93f3443c6b015f4
+      internalID: 796096048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_676
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abc5a03b1c632745b59c0a42aef176b
+      internalID: -378213255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_677
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d474b9a27b07946a2017c9ed54ddd1
+      internalID: 148246480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_678
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a43df2eb4e57046b0b5b685b13a2de
+      internalID: 1760423006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_679
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5eeb0c4a2d57414387a269a649996ca
+      internalID: 2072584226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_680
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43486520bca7bd7408010389df9e9234
+      internalID: 970063674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_681
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade9ce78b10d08141982baaae5a48855
+      internalID: 942284362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_682
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d7daff87eac3745bd5cdebd08384dd
+      internalID: 1288607941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_683
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5a22fbe287b584f8801419f8f87f81
+      internalID: -1019391787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_684
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f09b69a637e144bb2e0a66a5bedd97
+      internalID: -880345379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_685
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b8de272a828ba41b10c829d92883be
+      internalID: -219528640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_704
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b2a7657c2667046997397b9ec35484
+      internalID: 979002691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_706
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4b1c13c88a84349ad123ea28bbf8b2
+      internalID: -1552843298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_708
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480983d406944854982e063590a4110e
+      internalID: -2141979552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_710
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb61d7323b59d75488db5f154d2d9413
+      internalID: -1219267567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_712
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c5395fd03966e4dbbc45c72aa9c256
+      internalID: -395873872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColoredBuildingsPreview_714
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62accf49f523d94094cdc6082788d57
+      internalID: -190826709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ColoredBuildingsPreview_0: 884257315
+      ColoredBuildingsPreview_1: -484429079
+      ColoredBuildingsPreview_10: -991573994
+      ColoredBuildingsPreview_100: 730916957
+      ColoredBuildingsPreview_101: -1716844780
+      ColoredBuildingsPreview_102: 1977293053
+      ColoredBuildingsPreview_103: 757495209
+      ColoredBuildingsPreview_104: -1634451648
+      ColoredBuildingsPreview_105: 1950484733
+      ColoredBuildingsPreview_106: -423679859
+      ColoredBuildingsPreview_107: -161986294
+      ColoredBuildingsPreview_108: -598817828
+      ColoredBuildingsPreview_109: 875434503
+      ColoredBuildingsPreview_11: 1025345344
+      ColoredBuildingsPreview_110: -1346523885
+      ColoredBuildingsPreview_111: -1853557939
+      ColoredBuildingsPreview_112: -1549653020
+      ColoredBuildingsPreview_113: -1087633692
+      ColoredBuildingsPreview_114: 115463524
+      ColoredBuildingsPreview_115: 2046571541
+      ColoredBuildingsPreview_116: -1639020604
+      ColoredBuildingsPreview_117: -536616844
+      ColoredBuildingsPreview_118: -624387928
+      ColoredBuildingsPreview_119: -1134571345
+      ColoredBuildingsPreview_12: 1103545297
+      ColoredBuildingsPreview_120: 92703377
+      ColoredBuildingsPreview_121: -1676536660
+      ColoredBuildingsPreview_122: -655964913
+      ColoredBuildingsPreview_123: -483243582
+      ColoredBuildingsPreview_124: -1371689636
+      ColoredBuildingsPreview_125: -1872691413
+      ColoredBuildingsPreview_126: 1855162774
+      ColoredBuildingsPreview_127: 2013855397
+      ColoredBuildingsPreview_128: -855833253
+      ColoredBuildingsPreview_129: -1846913271
+      ColoredBuildingsPreview_13: 862272049
+      ColoredBuildingsPreview_130: 730268059
+      ColoredBuildingsPreview_131: -1666776543
+      ColoredBuildingsPreview_132: 350245607
+      ColoredBuildingsPreview_133: 584785669
+      ColoredBuildingsPreview_134: -205477296
+      ColoredBuildingsPreview_135: 644594386
+      ColoredBuildingsPreview_136: 581174739
+      ColoredBuildingsPreview_137: -337129208
+      ColoredBuildingsPreview_138: -262024615
+      ColoredBuildingsPreview_139: 1804050495
+      ColoredBuildingsPreview_14: -857413147
+      ColoredBuildingsPreview_140: 206665573
+      ColoredBuildingsPreview_141: -577993714
+      ColoredBuildingsPreview_142: -572184303
+      ColoredBuildingsPreview_143: 1082874893
+      ColoredBuildingsPreview_144: -827480246
+      ColoredBuildingsPreview_145: -1711737820
+      ColoredBuildingsPreview_146: -1663226519
+      ColoredBuildingsPreview_147: 458141703
+      ColoredBuildingsPreview_148: -295441524
+      ColoredBuildingsPreview_149: -462653686
+      ColoredBuildingsPreview_15: 1083519195
+      ColoredBuildingsPreview_150: 1320825081
+      ColoredBuildingsPreview_151: 852195232
+      ColoredBuildingsPreview_152: 1525794481
+      ColoredBuildingsPreview_153: -1464161406
+      ColoredBuildingsPreview_154: -775034076
+      ColoredBuildingsPreview_155: 1997999145
+      ColoredBuildingsPreview_156: -1830124186
+      ColoredBuildingsPreview_157: -320801796
+      ColoredBuildingsPreview_158: 1121096471
+      ColoredBuildingsPreview_159: 224193334
+      ColoredBuildingsPreview_16: -347407866
+      ColoredBuildingsPreview_160: -777335004
+      ColoredBuildingsPreview_161: 2097079084
+      ColoredBuildingsPreview_162: 1874540248
+      ColoredBuildingsPreview_163: -2135130621
+      ColoredBuildingsPreview_164: 1186671030
+      ColoredBuildingsPreview_165: 676640093
+      ColoredBuildingsPreview_166: -1594846298
+      ColoredBuildingsPreview_167: -850127301
+      ColoredBuildingsPreview_168: -1912372046
+      ColoredBuildingsPreview_169: -827316190
+      ColoredBuildingsPreview_17: -607018286
+      ColoredBuildingsPreview_170: -905241632
+      ColoredBuildingsPreview_171: -1241012446
+      ColoredBuildingsPreview_172: 427236222
+      ColoredBuildingsPreview_173: 1184962322
+      ColoredBuildingsPreview_174: 1379745402
+      ColoredBuildingsPreview_175: 303286347
+      ColoredBuildingsPreview_176: 1214331328
+      ColoredBuildingsPreview_177: -82508057
+      ColoredBuildingsPreview_178: -744320209
+      ColoredBuildingsPreview_179: -577668107
+      ColoredBuildingsPreview_18: 1341001861
+      ColoredBuildingsPreview_180: -636336612
+      ColoredBuildingsPreview_181: 1937932135
+      ColoredBuildingsPreview_182: -896533365
+      ColoredBuildingsPreview_183: 44653489
+      ColoredBuildingsPreview_184: -938324909
+      ColoredBuildingsPreview_185: -1896373960
+      ColoredBuildingsPreview_186: 1217422991
+      ColoredBuildingsPreview_187: -1143304703
+      ColoredBuildingsPreview_188: -1315306200
+      ColoredBuildingsPreview_189: 537431719
+      ColoredBuildingsPreview_19: -905939609
+      ColoredBuildingsPreview_190: -605985112
+      ColoredBuildingsPreview_191: -758477491
+      ColoredBuildingsPreview_192: -420217238
+      ColoredBuildingsPreview_193: 1995304187
+      ColoredBuildingsPreview_194: -1155180844
+      ColoredBuildingsPreview_195: 932207616
+      ColoredBuildingsPreview_196: 2067064497
+      ColoredBuildingsPreview_197: 1840214126
+      ColoredBuildingsPreview_198: 692740390
+      ColoredBuildingsPreview_199: 1209200294
+      ColoredBuildingsPreview_2: -911192901
+      ColoredBuildingsPreview_20: 2127894041
+      ColoredBuildingsPreview_200: -617387353
+      ColoredBuildingsPreview_201: 1384877579
+      ColoredBuildingsPreview_202: -999489228
+      ColoredBuildingsPreview_203: 1951010542
+      ColoredBuildingsPreview_204: -2075165235
+      ColoredBuildingsPreview_205: 2006563561
+      ColoredBuildingsPreview_206: 806950820
+      ColoredBuildingsPreview_207: 1814673129
+      ColoredBuildingsPreview_208: 607436795
+      ColoredBuildingsPreview_209: 1437431603
+      ColoredBuildingsPreview_21: -2022501570
+      ColoredBuildingsPreview_210: 540347668
+      ColoredBuildingsPreview_211: 558783695
+      ColoredBuildingsPreview_212: 1123299363
+      ColoredBuildingsPreview_213: -69559639
+      ColoredBuildingsPreview_214: 563544988
+      ColoredBuildingsPreview_215: -692098957
+      ColoredBuildingsPreview_216: -921773963
+      ColoredBuildingsPreview_217: 22822425
+      ColoredBuildingsPreview_218: -1774218527
+      ColoredBuildingsPreview_219: 350638251
+      ColoredBuildingsPreview_22: 653729868
+      ColoredBuildingsPreview_220: -540411568
+      ColoredBuildingsPreview_221: -1788191262
+      ColoredBuildingsPreview_222: -1029398576
+      ColoredBuildingsPreview_223: 688725410
+      ColoredBuildingsPreview_224: -1465782715
+      ColoredBuildingsPreview_225: -564888131
+      ColoredBuildingsPreview_226: -248638347
+      ColoredBuildingsPreview_227: 1808917623
+      ColoredBuildingsPreview_228: 1590179174
+      ColoredBuildingsPreview_229: -746704169
+      ColoredBuildingsPreview_23: 1996579884
+      ColoredBuildingsPreview_230: -347000114
+      ColoredBuildingsPreview_231: 903229296
+      ColoredBuildingsPreview_232: 392260485
+      ColoredBuildingsPreview_233: -1238345778
+      ColoredBuildingsPreview_234: -1847847257
+      ColoredBuildingsPreview_235: 1644092480
+      ColoredBuildingsPreview_236: -1265909415
+      ColoredBuildingsPreview_237: -237337021
+      ColoredBuildingsPreview_238: -379960252
+      ColoredBuildingsPreview_239: -427919063
+      ColoredBuildingsPreview_24: -881136478
+      ColoredBuildingsPreview_240: -1798827424
+      ColoredBuildingsPreview_241: -850276236
+      ColoredBuildingsPreview_242: 1189324225
+      ColoredBuildingsPreview_243: 279364762
+      ColoredBuildingsPreview_244: 1697351497
+      ColoredBuildingsPreview_245: -837056554
+      ColoredBuildingsPreview_246: 96691444
+      ColoredBuildingsPreview_247: -1182801607
+      ColoredBuildingsPreview_248: 1668616308
+      ColoredBuildingsPreview_249: -2632734
+      ColoredBuildingsPreview_25: -767031350
+      ColoredBuildingsPreview_250: 14895022
+      ColoredBuildingsPreview_251: 1330768315
+      ColoredBuildingsPreview_252: 1137378980
+      ColoredBuildingsPreview_253: 1241478029
+      ColoredBuildingsPreview_254: 108613239
+      ColoredBuildingsPreview_255: -1201539367
+      ColoredBuildingsPreview_256: 2141569605
+      ColoredBuildingsPreview_257: -1253164139
+      ColoredBuildingsPreview_258: -1980288181
+      ColoredBuildingsPreview_259: -547329403
+      ColoredBuildingsPreview_26: -499316060
+      ColoredBuildingsPreview_260: -1444831720
+      ColoredBuildingsPreview_261: 1465780973
+      ColoredBuildingsPreview_262: 365797453
+      ColoredBuildingsPreview_263: -428881755
+      ColoredBuildingsPreview_264: 1137310924
+      ColoredBuildingsPreview_265: 1664629532
+      ColoredBuildingsPreview_266: 1192742929
+      ColoredBuildingsPreview_267: -1031422322
+      ColoredBuildingsPreview_268: -2061713999
+      ColoredBuildingsPreview_269: 539487407
+      ColoredBuildingsPreview_27: 150086940
+      ColoredBuildingsPreview_270: -964324602
+      ColoredBuildingsPreview_271: -1168053084
+      ColoredBuildingsPreview_272: 1269153356
+      ColoredBuildingsPreview_273: 838130773
+      ColoredBuildingsPreview_274: -2115006489
+      ColoredBuildingsPreview_275: -2121042413
+      ColoredBuildingsPreview_276: -256275691
+      ColoredBuildingsPreview_277: 332977154
+      ColoredBuildingsPreview_278: -649223668
+      ColoredBuildingsPreview_279: 1079992854
+      ColoredBuildingsPreview_28: 746415064
+      ColoredBuildingsPreview_280: 455355380
+      ColoredBuildingsPreview_281: 188789395
+      ColoredBuildingsPreview_282: -1690699250
+      ColoredBuildingsPreview_283: 1743050875
+      ColoredBuildingsPreview_284: 647506800
+      ColoredBuildingsPreview_285: -484106158
+      ColoredBuildingsPreview_286: -120627345
+      ColoredBuildingsPreview_287: 1883860619
+      ColoredBuildingsPreview_288: 1033462681
+      ColoredBuildingsPreview_289: 2041399090
+      ColoredBuildingsPreview_29: -1434839307
+      ColoredBuildingsPreview_290: -1824810399
+      ColoredBuildingsPreview_291: -1896455174
+      ColoredBuildingsPreview_292: -1907686240
+      ColoredBuildingsPreview_293: 268932543
+      ColoredBuildingsPreview_294: -1215092394
+      ColoredBuildingsPreview_295: 1367994328
+      ColoredBuildingsPreview_296: -1464554563
+      ColoredBuildingsPreview_297: -900651959
+      ColoredBuildingsPreview_298: 1745957897
+      ColoredBuildingsPreview_299: -165621394
+      ColoredBuildingsPreview_3: -1444175963
+      ColoredBuildingsPreview_30: -1378505396
+      ColoredBuildingsPreview_300: 268714271
+      ColoredBuildingsPreview_301: -1753455091
+      ColoredBuildingsPreview_302: 368063412
+      ColoredBuildingsPreview_303: -130353909
+      ColoredBuildingsPreview_304: -1563607229
+      ColoredBuildingsPreview_305: -401549672
+      ColoredBuildingsPreview_306: 1426992597
+      ColoredBuildingsPreview_307: 2094740644
+      ColoredBuildingsPreview_308: 1241294819
+      ColoredBuildingsPreview_309: -768620696
+      ColoredBuildingsPreview_31: -1586232360
+      ColoredBuildingsPreview_310: 719764390
+      ColoredBuildingsPreview_311: -230535911
+      ColoredBuildingsPreview_312: 124128532
+      ColoredBuildingsPreview_313: -715104451
+      ColoredBuildingsPreview_314: 1048618566
+      ColoredBuildingsPreview_315: -1154938557
+      ColoredBuildingsPreview_316: 1645985340
+      ColoredBuildingsPreview_317: -67617743
+      ColoredBuildingsPreview_318: -80927163
+      ColoredBuildingsPreview_319: -2101982829
+      ColoredBuildingsPreview_32: 1118906990
+      ColoredBuildingsPreview_320: 894276416
+      ColoredBuildingsPreview_321: -443887132
+      ColoredBuildingsPreview_322: -1899029339
+      ColoredBuildingsPreview_323: -1430432478
+      ColoredBuildingsPreview_324: 375155582
+      ColoredBuildingsPreview_325: 742827757
+      ColoredBuildingsPreview_326: 589745764
+      ColoredBuildingsPreview_327: -1982756033
+      ColoredBuildingsPreview_328: 1191392154
+      ColoredBuildingsPreview_329: 1656279773
+      ColoredBuildingsPreview_33: -2131894264
+      ColoredBuildingsPreview_330: -1573334603
+      ColoredBuildingsPreview_331: 268665866
+      ColoredBuildingsPreview_332: 324773178
+      ColoredBuildingsPreview_333: 1795406669
+      ColoredBuildingsPreview_334: 18417351
+      ColoredBuildingsPreview_335: -556285144
+      ColoredBuildingsPreview_336: 511367553
+      ColoredBuildingsPreview_337: 44461482
+      ColoredBuildingsPreview_338: -227955902
+      ColoredBuildingsPreview_339: -754717073
+      ColoredBuildingsPreview_34: -819408924
+      ColoredBuildingsPreview_340: -31784362
+      ColoredBuildingsPreview_341: 1972073023
+      ColoredBuildingsPreview_342: -2029640921
+      ColoredBuildingsPreview_343: 1594238049
+      ColoredBuildingsPreview_344: -2120064079
+      ColoredBuildingsPreview_345: 2081025895
+      ColoredBuildingsPreview_346: -2123229473
+      ColoredBuildingsPreview_347: 278924672
+      ColoredBuildingsPreview_348: 73978037
+      ColoredBuildingsPreview_349: 1627604226
+      ColoredBuildingsPreview_35: -618931252
+      ColoredBuildingsPreview_350: -742499553
+      ColoredBuildingsPreview_351: 495206165
+      ColoredBuildingsPreview_352: -867281797
+      ColoredBuildingsPreview_353: 2083091264
+      ColoredBuildingsPreview_354: 2035489178
+      ColoredBuildingsPreview_355: 1000620200
+      ColoredBuildingsPreview_356: -919991868
+      ColoredBuildingsPreview_357: 1099538290
+      ColoredBuildingsPreview_358: 1056345994
+      ColoredBuildingsPreview_359: -1709391086
+      ColoredBuildingsPreview_36: 683907882
+      ColoredBuildingsPreview_360: 1414086123
+      ColoredBuildingsPreview_361: -2034394455
+      ColoredBuildingsPreview_362: 418655480
+      ColoredBuildingsPreview_363: 434861314
+      ColoredBuildingsPreview_364: 1087511388
+      ColoredBuildingsPreview_365: 1852398695
+      ColoredBuildingsPreview_366: -285897880
+      ColoredBuildingsPreview_367: 451494561
+      ColoredBuildingsPreview_368: 740555895
+      ColoredBuildingsPreview_369: -1668806754
+      ColoredBuildingsPreview_37: -468571517
+      ColoredBuildingsPreview_370: -88851458
+      ColoredBuildingsPreview_371: 894361760
+      ColoredBuildingsPreview_372: 247962005
+      ColoredBuildingsPreview_373: 1491349157
+      ColoredBuildingsPreview_374: -564483068
+      ColoredBuildingsPreview_375: 2059716257
+      ColoredBuildingsPreview_376: 247043425
+      ColoredBuildingsPreview_377: 622012610
+      ColoredBuildingsPreview_378: 1546140499
+      ColoredBuildingsPreview_379: 2027650415
+      ColoredBuildingsPreview_38: -1732566331
+      ColoredBuildingsPreview_380: -609040864
+      ColoredBuildingsPreview_381: 40511211
+      ColoredBuildingsPreview_382: 881780929
+      ColoredBuildingsPreview_383: 731445180
+      ColoredBuildingsPreview_384: -898274735
+      ColoredBuildingsPreview_385: 401473273
+      ColoredBuildingsPreview_386: -1051990953
+      ColoredBuildingsPreview_387: -2104370346
+      ColoredBuildingsPreview_388: 1216539646
+      ColoredBuildingsPreview_389: 332488723
+      ColoredBuildingsPreview_39: -656408713
+      ColoredBuildingsPreview_390: -245870111
+      ColoredBuildingsPreview_391: 1003823105
+      ColoredBuildingsPreview_392: 1346242621
+      ColoredBuildingsPreview_393: 1514811947
+      ColoredBuildingsPreview_394: -574499982
+      ColoredBuildingsPreview_395: -561367245
+      ColoredBuildingsPreview_396: 158689682
+      ColoredBuildingsPreview_397: -1022720183
+      ColoredBuildingsPreview_398: -1073173815
+      ColoredBuildingsPreview_399: -1187606605
+      ColoredBuildingsPreview_4: -1196998970
+      ColoredBuildingsPreview_40: -724720339
+      ColoredBuildingsPreview_400: -1415685321
+      ColoredBuildingsPreview_401: 1956415251
+      ColoredBuildingsPreview_402: -594692550
+      ColoredBuildingsPreview_403: 361157840
+      ColoredBuildingsPreview_404: -1217946835
+      ColoredBuildingsPreview_405: -727081467
+      ColoredBuildingsPreview_406: -1278029571
+      ColoredBuildingsPreview_407: 1224944464
+      ColoredBuildingsPreview_408: 444526723
+      ColoredBuildingsPreview_409: -951914065
+      ColoredBuildingsPreview_41: 1410632496
+      ColoredBuildingsPreview_410: 1054713819
+      ColoredBuildingsPreview_411: -1553507336
+      ColoredBuildingsPreview_412: 400635737
+      ColoredBuildingsPreview_413: 210517418
+      ColoredBuildingsPreview_414: 856299108
+      ColoredBuildingsPreview_415: -1295937827
+      ColoredBuildingsPreview_416: 656846417
+      ColoredBuildingsPreview_417: 1517740117
+      ColoredBuildingsPreview_418: -1747448339
+      ColoredBuildingsPreview_419: -724141888
+      ColoredBuildingsPreview_42: -2125877459
+      ColoredBuildingsPreview_420: 425380287
+      ColoredBuildingsPreview_421: 1308248409
+      ColoredBuildingsPreview_422: 739398095
+      ColoredBuildingsPreview_423: 1167477487
+      ColoredBuildingsPreview_424: -916207798
+      ColoredBuildingsPreview_425: 494425691
+      ColoredBuildingsPreview_426: 769128714
+      ColoredBuildingsPreview_427: -942060851
+      ColoredBuildingsPreview_428: 2048230786
+      ColoredBuildingsPreview_429: -1657008776
+      ColoredBuildingsPreview_43: -550377816
+      ColoredBuildingsPreview_430: -984636679
+      ColoredBuildingsPreview_431: 2058968874
+      ColoredBuildingsPreview_432: 1643451753
+      ColoredBuildingsPreview_433: 625960150
+      ColoredBuildingsPreview_434: -390620324
+      ColoredBuildingsPreview_435: -1618442948
+      ColoredBuildingsPreview_436: 1523382940
+      ColoredBuildingsPreview_437: 525211944
+      ColoredBuildingsPreview_438: -2133020931
+      ColoredBuildingsPreview_439: -658108117
+      ColoredBuildingsPreview_44: 1361280409
+      ColoredBuildingsPreview_440: 315403945
+      ColoredBuildingsPreview_441: -1976737530
+      ColoredBuildingsPreview_442: -251074596
+      ColoredBuildingsPreview_443: 545089946
+      ColoredBuildingsPreview_444: 1811008150
+      ColoredBuildingsPreview_445: 1410910361
+      ColoredBuildingsPreview_446: 1894450606
+      ColoredBuildingsPreview_447: -713066107
+      ColoredBuildingsPreview_448: -1199297898
+      ColoredBuildingsPreview_449: -1903098199
+      ColoredBuildingsPreview_45: -1590074876
+      ColoredBuildingsPreview_450: -21726860
+      ColoredBuildingsPreview_451: -1032908785
+      ColoredBuildingsPreview_452: -715958621
+      ColoredBuildingsPreview_453: -1269511156
+      ColoredBuildingsPreview_454: -1941289704
+      ColoredBuildingsPreview_455: -1467968538
+      ColoredBuildingsPreview_456: -1617049007
+      ColoredBuildingsPreview_457: 2133022701
+      ColoredBuildingsPreview_458: 1599209622
+      ColoredBuildingsPreview_459: -1017111100
+      ColoredBuildingsPreview_46: 760379434
+      ColoredBuildingsPreview_460: 1839737878
+      ColoredBuildingsPreview_461: -963847617
+      ColoredBuildingsPreview_462: 1749692697
+      ColoredBuildingsPreview_463: 1300786323
+      ColoredBuildingsPreview_464: 2082900467
+      ColoredBuildingsPreview_465: -1451419408
+      ColoredBuildingsPreview_466: -195605689
+      ColoredBuildingsPreview_467: 1930743284
+      ColoredBuildingsPreview_468: -2053071824
+      ColoredBuildingsPreview_469: -592935730
+      ColoredBuildingsPreview_47: -443564846
+      ColoredBuildingsPreview_470: 134795869
+      ColoredBuildingsPreview_471: 1326367301
+      ColoredBuildingsPreview_472: -1337135881
+      ColoredBuildingsPreview_473: -745418463
+      ColoredBuildingsPreview_474: -1483390696
+      ColoredBuildingsPreview_475: -704903957
+      ColoredBuildingsPreview_476: 258586218
+      ColoredBuildingsPreview_477: -1316820653
+      ColoredBuildingsPreview_478: -98078460
+      ColoredBuildingsPreview_479: 2054832766
+      ColoredBuildingsPreview_48: 67964968
+      ColoredBuildingsPreview_480: 254106826
+      ColoredBuildingsPreview_481: -1124779130
+      ColoredBuildingsPreview_482: -1784752587
+      ColoredBuildingsPreview_483: 433486890
+      ColoredBuildingsPreview_484: 1251672808
+      ColoredBuildingsPreview_485: -1145461436
+      ColoredBuildingsPreview_486: 1528903997
+      ColoredBuildingsPreview_487: 822376951
+      ColoredBuildingsPreview_488: -621400201
+      ColoredBuildingsPreview_489: -2088142171
+      ColoredBuildingsPreview_49: -1646471271
+      ColoredBuildingsPreview_490: -579500331
+      ColoredBuildingsPreview_491: -1613434585
+      ColoredBuildingsPreview_492: -1771538396
+      ColoredBuildingsPreview_493: -436539429
+      ColoredBuildingsPreview_494: 553571534
+      ColoredBuildingsPreview_495: -2085568319
+      ColoredBuildingsPreview_496: 895746195
+      ColoredBuildingsPreview_497: -1771357774
+      ColoredBuildingsPreview_498: 191070964
+      ColoredBuildingsPreview_499: 193247450
+      ColoredBuildingsPreview_5: -1228005895
+      ColoredBuildingsPreview_50: 1459877468
+      ColoredBuildingsPreview_500: -1497309220
+      ColoredBuildingsPreview_501: 968622565
+      ColoredBuildingsPreview_502: -600066686
+      ColoredBuildingsPreview_503: 1586787892
+      ColoredBuildingsPreview_504: 1741844642
+      ColoredBuildingsPreview_505: 120978751
+      ColoredBuildingsPreview_506: -942940758
+      ColoredBuildingsPreview_507: 1212840179
+      ColoredBuildingsPreview_508: 357383070
+      ColoredBuildingsPreview_509: -1390725633
+      ColoredBuildingsPreview_51: 503920671
+      ColoredBuildingsPreview_510: -488362451
+      ColoredBuildingsPreview_511: 2029688246
+      ColoredBuildingsPreview_512: -1031954353
+      ColoredBuildingsPreview_513: 309464121
+      ColoredBuildingsPreview_514: -1963148211
+      ColoredBuildingsPreview_515: 1409354611
+      ColoredBuildingsPreview_516: -1545123118
+      ColoredBuildingsPreview_517: 2098107371
+      ColoredBuildingsPreview_518: 1942328147
+      ColoredBuildingsPreview_519: 1446797984
+      ColoredBuildingsPreview_52: -1340749744
+      ColoredBuildingsPreview_520: 677475813
+      ColoredBuildingsPreview_521: 198407340
+      ColoredBuildingsPreview_522: -1210381499
+      ColoredBuildingsPreview_523: 891818233
+      ColoredBuildingsPreview_524: -1626005748
+      ColoredBuildingsPreview_525: 2083036117
+      ColoredBuildingsPreview_526: -1461371799
+      ColoredBuildingsPreview_527: 1787012173
+      ColoredBuildingsPreview_528: -990668340
+      ColoredBuildingsPreview_529: -1773224878
+      ColoredBuildingsPreview_53: 55096091
+      ColoredBuildingsPreview_530: 337521386
+      ColoredBuildingsPreview_531: -766941534
+      ColoredBuildingsPreview_532: 940133352
+      ColoredBuildingsPreview_533: 174866680
+      ColoredBuildingsPreview_534: -1692337836
+      ColoredBuildingsPreview_535: -978507642
+      ColoredBuildingsPreview_536: -1410388377
+      ColoredBuildingsPreview_537: -1851234394
+      ColoredBuildingsPreview_538: -534346652
+      ColoredBuildingsPreview_539: 1047399376
+      ColoredBuildingsPreview_54: 2112660313
+      ColoredBuildingsPreview_540: -870847298
+      ColoredBuildingsPreview_541: -842506928
+      ColoredBuildingsPreview_542: -864103628
+      ColoredBuildingsPreview_543: 1626595346
+      ColoredBuildingsPreview_544: 1357168224
+      ColoredBuildingsPreview_545: 294552973
+      ColoredBuildingsPreview_546: 226791848
+      ColoredBuildingsPreview_547: 474172256
+      ColoredBuildingsPreview_548: -292041905
+      ColoredBuildingsPreview_549: -1217030949
+      ColoredBuildingsPreview_55: 1195920935
+      ColoredBuildingsPreview_550: 1048439082
+      ColoredBuildingsPreview_551: 1916889914
+      ColoredBuildingsPreview_552: -568915277
+      ColoredBuildingsPreview_553: -1417190665
+      ColoredBuildingsPreview_554: -1234424322
+      ColoredBuildingsPreview_555: -1640786108
+      ColoredBuildingsPreview_556: 1373728777
+      ColoredBuildingsPreview_557: -1861647802
+      ColoredBuildingsPreview_558: 65156336
+      ColoredBuildingsPreview_559: -318321259
+      ColoredBuildingsPreview_56: -1263570598
+      ColoredBuildingsPreview_560: -1927935782
+      ColoredBuildingsPreview_561: -1828547060
+      ColoredBuildingsPreview_562: 313626676
+      ColoredBuildingsPreview_563: 1334223429
+      ColoredBuildingsPreview_564: -702354871
+      ColoredBuildingsPreview_565: -2101837259
+      ColoredBuildingsPreview_566: 1422700607
+      ColoredBuildingsPreview_567: 1917268358
+      ColoredBuildingsPreview_568: 717222575
+      ColoredBuildingsPreview_569: -1140064206
+      ColoredBuildingsPreview_57: 1585900567
+      ColoredBuildingsPreview_570: -1900278740
+      ColoredBuildingsPreview_571: 2101027891
+      ColoredBuildingsPreview_572: 908155408
+      ColoredBuildingsPreview_573: -382046367
+      ColoredBuildingsPreview_574: -513203151
+      ColoredBuildingsPreview_575: 873039176
+      ColoredBuildingsPreview_576: 503770850
+      ColoredBuildingsPreview_577: 1087980879
+      ColoredBuildingsPreview_578: 266493302
+      ColoredBuildingsPreview_579: -730370182
+      ColoredBuildingsPreview_58: 1301406331
+      ColoredBuildingsPreview_580: -519613345
+      ColoredBuildingsPreview_581: -1028747299
+      ColoredBuildingsPreview_582: -1755150050
+      ColoredBuildingsPreview_583: -788765434
+      ColoredBuildingsPreview_584: -298555074
+      ColoredBuildingsPreview_585: -940631438
+      ColoredBuildingsPreview_586: -985199255
+      ColoredBuildingsPreview_587: -1132570598
+      ColoredBuildingsPreview_588: -1907210748
+      ColoredBuildingsPreview_589: -64344558
+      ColoredBuildingsPreview_59: 2072786844
+      ColoredBuildingsPreview_590: 428297733
+      ColoredBuildingsPreview_591: -1220270881
+      ColoredBuildingsPreview_592: -1700605422
+      ColoredBuildingsPreview_593: -1046342552
+      ColoredBuildingsPreview_594: -354233886
+      ColoredBuildingsPreview_595: 583044915
+      ColoredBuildingsPreview_596: -1735908210
+      ColoredBuildingsPreview_597: 574177092
+      ColoredBuildingsPreview_598: 1521134029
+      ColoredBuildingsPreview_599: 1843967925
+      ColoredBuildingsPreview_6: -447013480
+      ColoredBuildingsPreview_60: -275535906
+      ColoredBuildingsPreview_600: -1180889787
+      ColoredBuildingsPreview_601: -581021201
+      ColoredBuildingsPreview_602: 954315181
+      ColoredBuildingsPreview_603: -2094767342
+      ColoredBuildingsPreview_604: 435904940
+      ColoredBuildingsPreview_605: -720456748
+      ColoredBuildingsPreview_606: 1792155683
+      ColoredBuildingsPreview_607: 1593794996
+      ColoredBuildingsPreview_608: 1985859410
+      ColoredBuildingsPreview_609: -551781636
+      ColoredBuildingsPreview_61: -1601054251
+      ColoredBuildingsPreview_610: -83617014
+      ColoredBuildingsPreview_611: 1743716236
+      ColoredBuildingsPreview_612: -44651197
+      ColoredBuildingsPreview_613: 1133485551
+      ColoredBuildingsPreview_614: 1116526903
+      ColoredBuildingsPreview_615: -407314863
+      ColoredBuildingsPreview_616: -1415691463
+      ColoredBuildingsPreview_617: 664868972
+      ColoredBuildingsPreview_618: -356528370
+      ColoredBuildingsPreview_619: 587257694
+      ColoredBuildingsPreview_62: -459757710
+      ColoredBuildingsPreview_620: 2069624633
+      ColoredBuildingsPreview_621: -660986260
+      ColoredBuildingsPreview_622: -189858754
+      ColoredBuildingsPreview_623: -1374370045
+      ColoredBuildingsPreview_624: 1240525430
+      ColoredBuildingsPreview_625: 967463520
+      ColoredBuildingsPreview_626: 121802828
+      ColoredBuildingsPreview_627: -1853725026
+      ColoredBuildingsPreview_628: -2137309009
+      ColoredBuildingsPreview_629: 1224130912
+      ColoredBuildingsPreview_63: -1197073138
+      ColoredBuildingsPreview_630: -672715455
+      ColoredBuildingsPreview_631: -1711472338
+      ColoredBuildingsPreview_632: 1863753305
+      ColoredBuildingsPreview_633: 1375806723
+      ColoredBuildingsPreview_634: 863888468
+      ColoredBuildingsPreview_635: 1275419381
+      ColoredBuildingsPreview_636: 693562725
+      ColoredBuildingsPreview_637: -1781119793
+      ColoredBuildingsPreview_638: 73532256
+      ColoredBuildingsPreview_639: 590930272
+      ColoredBuildingsPreview_64: -2089293147
+      ColoredBuildingsPreview_640: -1441308543
+      ColoredBuildingsPreview_641: -1752147192
+      ColoredBuildingsPreview_642: 1598182473
+      ColoredBuildingsPreview_643: 141136849
+      ColoredBuildingsPreview_644: 1200433629
+      ColoredBuildingsPreview_645: -2126920684
+      ColoredBuildingsPreview_646: 56865204
+      ColoredBuildingsPreview_647: -1990781013
+      ColoredBuildingsPreview_648: 1133911287
+      ColoredBuildingsPreview_649: -1347950201
+      ColoredBuildingsPreview_65: -1165419989
+      ColoredBuildingsPreview_650: -345104493
+      ColoredBuildingsPreview_651: -872119248
+      ColoredBuildingsPreview_652: -872394493
+      ColoredBuildingsPreview_653: 261793893
+      ColoredBuildingsPreview_654: -1334453111
+      ColoredBuildingsPreview_655: 1843047913
+      ColoredBuildingsPreview_656: -2026315465
+      ColoredBuildingsPreview_657: -453011854
+      ColoredBuildingsPreview_658: -1479385253
+      ColoredBuildingsPreview_659: 1712915380
+      ColoredBuildingsPreview_66: -193152656
+      ColoredBuildingsPreview_660: -206415151
+      ColoredBuildingsPreview_661: -1191312867
+      ColoredBuildingsPreview_662: -69037444
+      ColoredBuildingsPreview_663: -1397290330
+      ColoredBuildingsPreview_664: -788112789
+      ColoredBuildingsPreview_665: 644660821
+      ColoredBuildingsPreview_666: 976325250
+      ColoredBuildingsPreview_667: -801250093
+      ColoredBuildingsPreview_668: 386728442
+      ColoredBuildingsPreview_669: 1107173271
+      ColoredBuildingsPreview_67: -710127695
+      ColoredBuildingsPreview_670: -1295854157
+      ColoredBuildingsPreview_671: 1860466611
+      ColoredBuildingsPreview_672: -2025347733
+      ColoredBuildingsPreview_673: -1469595853
+      ColoredBuildingsPreview_674: -1986029467
+      ColoredBuildingsPreview_675: 796096048
+      ColoredBuildingsPreview_676: -378213255
+      ColoredBuildingsPreview_677: 148246480
+      ColoredBuildingsPreview_678: 1760423006
+      ColoredBuildingsPreview_679: 2072584226
+      ColoredBuildingsPreview_68: 2079749667
+      ColoredBuildingsPreview_680: 970063674
+      ColoredBuildingsPreview_681: 942284362
+      ColoredBuildingsPreview_682: 1288607941
+      ColoredBuildingsPreview_683: -1019391787
+      ColoredBuildingsPreview_684: -880345379
+      ColoredBuildingsPreview_685: -219528640
+      ColoredBuildingsPreview_686: -1696321737
+      ColoredBuildingsPreview_687: -202023003
+      ColoredBuildingsPreview_688: 849576823
+      ColoredBuildingsPreview_689: -1986607567
+      ColoredBuildingsPreview_69: -1282759738
+      ColoredBuildingsPreview_690: 2043798177
+      ColoredBuildingsPreview_691: -1839339634
+      ColoredBuildingsPreview_692: -1861114644
+      ColoredBuildingsPreview_693: -1305273031
+      ColoredBuildingsPreview_694: 659297857
+      ColoredBuildingsPreview_695: -1212856967
+      ColoredBuildingsPreview_696: 972996878
+      ColoredBuildingsPreview_697: -556301738
+      ColoredBuildingsPreview_698: 1932848635
+      ColoredBuildingsPreview_699: 1429315236
+      ColoredBuildingsPreview_7: 1557255560
+      ColoredBuildingsPreview_70: 1002199559
+      ColoredBuildingsPreview_700: 1927759259
+      ColoredBuildingsPreview_701: 69561745
+      ColoredBuildingsPreview_702: -504861491
+      ColoredBuildingsPreview_703: 343303050
+      ColoredBuildingsPreview_704: 979002691
+      ColoredBuildingsPreview_705: -1884679979
+      ColoredBuildingsPreview_706: -1552843298
+      ColoredBuildingsPreview_707: 1381611047
+      ColoredBuildingsPreview_708: -2141979552
+      ColoredBuildingsPreview_709: 184392198
+      ColoredBuildingsPreview_71: -421816818
+      ColoredBuildingsPreview_710: -1219267567
+      ColoredBuildingsPreview_711: -273341893
+      ColoredBuildingsPreview_712: -395873872
+      ColoredBuildingsPreview_713: -1252164978
+      ColoredBuildingsPreview_714: -190826709
+      ColoredBuildingsPreview_715: 241345670
+      ColoredBuildingsPreview_716: 311186142
+      ColoredBuildingsPreview_717: -1794225102
+      ColoredBuildingsPreview_718: 1164886122
+      ColoredBuildingsPreview_719: -676034393
+      ColoredBuildingsPreview_72: 1192392512
+      ColoredBuildingsPreview_720: -46939286
+      ColoredBuildingsPreview_721: -1619939772
+      ColoredBuildingsPreview_722: 1299266237
+      ColoredBuildingsPreview_723: -41570066
+      ColoredBuildingsPreview_724: -1374463194
+      ColoredBuildingsPreview_725: 552317135
+      ColoredBuildingsPreview_726: -727974558
+      ColoredBuildingsPreview_727: 443446638
+      ColoredBuildingsPreview_728: 1634855725
+      ColoredBuildingsPreview_729: -149135659
+      ColoredBuildingsPreview_73: -466420088
+      ColoredBuildingsPreview_730: -857977229
+      ColoredBuildingsPreview_731: -1050461824
+      ColoredBuildingsPreview_732: 1318607535
+      ColoredBuildingsPreview_733: 996323730
+      ColoredBuildingsPreview_734: 998188369
+      ColoredBuildingsPreview_735: 2140757110
+      ColoredBuildingsPreview_736: -1596440044
+      ColoredBuildingsPreview_737: 1996317320
+      ColoredBuildingsPreview_738: 197787648
+      ColoredBuildingsPreview_739: -372768231
+      ColoredBuildingsPreview_74: -27334147
+      ColoredBuildingsPreview_740: -1398586608
+      ColoredBuildingsPreview_741: -1427819887
+      ColoredBuildingsPreview_742: 2084180776
+      ColoredBuildingsPreview_743: -543724550
+      ColoredBuildingsPreview_744: 569769732
+      ColoredBuildingsPreview_745: 1422135460
+      ColoredBuildingsPreview_746: 2034753123
+      ColoredBuildingsPreview_747: -524736014
+      ColoredBuildingsPreview_748: 1026749225
+      ColoredBuildingsPreview_749: 1281134115
+      ColoredBuildingsPreview_75: 756229422
+      ColoredBuildingsPreview_750: -1930866405
+      ColoredBuildingsPreview_751: -1550621982
+      ColoredBuildingsPreview_752: 1413836625
+      ColoredBuildingsPreview_753: -629999735
+      ColoredBuildingsPreview_754: 504116758
+      ColoredBuildingsPreview_755: 966622843
+      ColoredBuildingsPreview_756: 1635874011
+      ColoredBuildingsPreview_757: -723974912
+      ColoredBuildingsPreview_758: -139227274
+      ColoredBuildingsPreview_759: -104023368
+      ColoredBuildingsPreview_76: -999057755
+      ColoredBuildingsPreview_760: 896596124
+      ColoredBuildingsPreview_761: 2031117929
+      ColoredBuildingsPreview_762: -1617014085
+      ColoredBuildingsPreview_763: 1156353177
+      ColoredBuildingsPreview_77: 1642382146
+      ColoredBuildingsPreview_78: 605094980
+      ColoredBuildingsPreview_79: -1375864559
+      ColoredBuildingsPreview_8: 557173791
+      ColoredBuildingsPreview_80: 1900169645
+      ColoredBuildingsPreview_81: -553463319
+      ColoredBuildingsPreview_82: 1794702876
+      ColoredBuildingsPreview_83: 2014614891
+      ColoredBuildingsPreview_84: 918042252
+      ColoredBuildingsPreview_85: -1697635935
+      ColoredBuildingsPreview_86: 2125869077
+      ColoredBuildingsPreview_87: -924328770
+      ColoredBuildingsPreview_88: -322898372
+      ColoredBuildingsPreview_89: -2069986467
+      ColoredBuildingsPreview_9: 1332847994
+      ColoredBuildingsPreview_90: -1232937767
+      ColoredBuildingsPreview_91: 872828347
+      ColoredBuildingsPreview_92: 2118034527
+      ColoredBuildingsPreview_93: -481452045
+      ColoredBuildingsPreview_94: -250622739
+      ColoredBuildingsPreview_95: -205762012
+      ColoredBuildingsPreview_96: -1775373331
+      ColoredBuildingsPreview_97: -979143396
+      ColoredBuildingsPreview_98: 1409546500
+      ColoredBuildingsPreview_99: -1064844099
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

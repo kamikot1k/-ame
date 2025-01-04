@@ -16,6 +16,8 @@ public class Pawn : MonoBehaviour
     [SerializeField] private float _attackCooldown;
     [SerializeField] private float _attackTime;
 
+    [SerializeField] private GameObject _corpsePrefab;
+
     public float _price;
     public float _trainTime;
 
@@ -144,24 +146,17 @@ public class Pawn : MonoBehaviour
         StartCoroutine(ResetKnockback(_rb));
         if (_health <= 0)
         {
-            Die();
+            isDying = true;
+            animator.SetBool("isDying", true);
         }
     }
 
-    private void Die()
+    public void Die()
     {
-        isDying = true;
+        GameObject corpse = Instantiate(_corpsePrefab, transform.position, Quaternion.identity);
+        corpse.GetComponent<SpriteRenderer>().flipX = _sr.flipX;
 
-        if (_sr.flipX == false)
-        {
-            Destroy(gameObject, _knockbackDelay);
-            transform.rotation = Quaternion.Euler(0f, 0f, 90f);
-        }
-        else if (_sr.flipX == true)
-        {
-            Destroy(gameObject, _knockbackDelay);
-            transform.rotation = Quaternion.Euler(0f, 0f, -90f);
-        }
+        Destroy(gameObject);
     }
 
     public void executeProjectile()

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class TimerTip : MonoBehaviour
 {
     [SerializeField] private Barracks _barrack;
-    [SerializeField] private GameObject _prefab;
+    public GameObject _prefab;
     [SerializeField] private Image _timerTip;
     [SerializeField] private Text _textTip;
     public int _count;
@@ -22,12 +22,6 @@ public class TimerTip : MonoBehaviour
             {
                 _timerTip.fillAmount = _barrack._trainTimer / _barrack._trainQueue[0].gameObject.GetComponent<Pawn>()._trainTime;
             }
-            if (_barrack._trainTimer >= _barrack._trainQueue[0].gameObject.GetComponent<Pawn>()._trainTime)
-            {
-                _timerTip.fillAmount = 0;
-                _count -= 1;
-                _textTip.text = _count.ToString() + 'x';
-            }
         }
     }
 
@@ -35,5 +29,19 @@ public class TimerTip : MonoBehaviour
     {
         _count++;
         _textTip.text = _count.ToString() + 'x';
+    }
+
+    public void ResetTimerTip() 
+    {
+        _timerTip.fillAmount = 0;
+        _count -= 1;
+        if (_count == 0)
+        {
+            _timerTip.gameObject.SetActive(false);
+            _textTip.gameObject.SetActive(false);
+        } else
+        {
+            _textTip.text = _count.ToString() + 'x';
+        }
     }
 }

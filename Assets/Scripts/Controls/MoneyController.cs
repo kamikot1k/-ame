@@ -20,9 +20,14 @@ public class MoneyController : MonoBehaviour
         if (_getMoneyTimer >= _getMoneyDelay)
         {
             _moneyCount += _moneyPerTime;
-            _moneyCountText.text = _moneyCount.ToString();
+            UpdateText();
             _getMoneyTimer = 0f;
         }
+    }
+
+    public void UpdateText()
+    {
+        _moneyCountText.text = _moneyCount.ToString();
     }
 }
 

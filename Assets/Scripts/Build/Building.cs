@@ -14,7 +14,7 @@ public class Building : MonoBehaviour
     {
         foreach (Buildings i in Camera.main.gameObject.GetComponent<MoneyController>()._buildings)
         {
-            if (i.BuildingSettings[0]._name == gameObject.name.Remove(i.BuildingSettings[0]._name.Length, 7))
+            if (i.BuildingSettings[0]._name == gameObject.name.Remove(i.BuildingSettings[0]._name.Length, gameObject.name.Length - i.BuildingSettings[0]._name.Length))
             {
                 this._price = i.BuildingSettings[0]._price;
                 this._priceModifier = i.BuildingSettings[0]._priceModifier;

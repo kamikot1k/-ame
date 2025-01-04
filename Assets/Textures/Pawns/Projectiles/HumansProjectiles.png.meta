@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 410bb5c5092706547a8967f68cb68aa6
+guid: 7e8b0d994c34ebe4694dbf8950b564a5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spearman-sheet_0
+      name: HumansProjectiles_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
+        x: 4
+        y: 37
         width: 9
-        height: 12
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,62 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cb7e7670652e6a47ae8f8ebc8c8279a
-      internalID: -2061349646
+      spriteID: ad92649e41a581a4790703f83cb654a5
+      internalID: 1557270854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spearman-sheet_1
+      name: HumansProjectiles_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 12
-        height: 9
-      alignment: 9
-      pivot: {x: 0.455, y: 0.665}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1fe74c6971477e44b73f81bef2aa723
-      internalID: -556723680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spearman-sheet_2
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 0
-        width: 13
-        height: 9
-      alignment: 9
-      pivot: {x: 0.193, y: 0.665}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb1d90d145d90e34681b8dd479391fc2
-      internalID: -571219838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spearman-sheet_3
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 0
+        x: 3
+        y: 21
         width: 9
-        height: 12
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,50 +145,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ee2eb8e2cf07d743a8d55c1fec59456
-      internalID: 1912066235
+      spriteID: b28788dc6dc587848b81a08ecbd11e33
+      internalID: -606497723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spearman-sheet_4
+      name: HumansProjectiles_2
       rect:
         serializedVersion: 2
-        x: 65
-        y: 0
+        x: 19
+        y: 21
         width: 9
-        height: 12
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb8dd4657819f7b46b521144d052350b
-      internalID: -1924051493
+      spriteID: 81a7f8fec18f51943804daf77bc40d0d
+      internalID: 774624348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spearman-sheet_5
+      name: HumansProjectiles_3
       rect:
         serializedVersion: 2
-        x: 81
-        y: 0
-        width: 9
-        height: 12
+        x: 6
+        y: 6
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb0fc9765f0dfd143a46e78be91b7321
-      internalID: -239207757
+      spriteID: 70f51ed006926234798173e6eb94e40b
+      internalID: 411030518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HumansProjectiles_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dab94aa6096534e902482fbd98516c
+      internalID: 309387902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HumansProjectiles_5
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 4
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71424015206e413429c020f3beafeafc
+      internalID: -1427763536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HumansProjectiles_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 37
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab265f64134184b49b23db09f5684d33
+      internalID: 2137453209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HumansProjectiles_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 3
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14719299314f0a445a32adea7a5d5a85
+      internalID: 928010656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HumansProjectiles_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 4
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1943476149860e54fbecbbb9d31b62f1
+      internalID: -1894306753
       vertices: []
       indices: 
       edges: []
@@ -246,12 +309,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spearman-sheet_0: -2061349646
-      spearman-sheet_1: -556723680
-      spearman-sheet_2: -571219838
-      spearman-sheet_3: 1912066235
-      spearman-sheet_4: -1924051493
-      spearman-sheet_5: -239207757
+      HumansProjectiles_0: 1557270854
+      HumansProjectiles_1: -606497723
+      HumansProjectiles_2: 774624348
+      HumansProjectiles_3: 411030518
+      HumansProjectiles_4: 309387902
+      HumansProjectiles_5: -1427763536
+      HumansProjectiles_6: 2137453209
+      HumansProjectiles_7: 928010656
+      HumansProjectiles_8: -1894306753
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

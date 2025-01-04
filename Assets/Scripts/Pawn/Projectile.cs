@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class Projectile : MonoBehaviour
 {
     [SerializeField] private ProjectileVisual _projectileVisual;
 
     private GameObject _target;
+    private Vector3 _targetPosition;
     private GameObject _attacker;
     private float _moveSpeed;
     private float _maxMoveSpeed;
@@ -39,9 +41,11 @@ public class Projectile : MonoBehaviour
     {
         if (_target != null)
         {
+            _targetPosition  = _target.transform.position;
+
             updateProjectilePosition();
 
-            if (Vector3.Distance(transform.position, _target.transform.position) < distanceToTargetToDestroyProjectile)
+            if (Vector2.Distance(transform.position, _target.transform.position) < distanceToTargetToDestroyProjectile)
             {
                 _target.GetComponent<Pawn>().TakeDamage(_force, _knockback, _attacker);
                 Destroy(gameObject);
@@ -49,14 +53,28 @@ public class Projectile : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
+            _projectileVisual.SetTarget(_targetPosition);
+
+            updateProjectilePosition();
+
+            if (Vector2.Distance(transform.position, _targetPosition) < distanceToTargetToDestroyProjectile)
+            {
+                Destroy(gameObject);
+            }
         }
     }
     private void updateProjectilePosition()
     {
-        trajectoryRange = _target.transform.position - trajectoryStartPoint;
+        if (_target != null)
+        {
+            trajectoryRange = _target.transform.position - trajectoryStartPoint;
+        }
+        else
+        {
+            trajectoryRange = _targetPosition - trajectoryStartPoint;
+        }
 
-        if (Mathf.Abs(trajectoryRange.normalized.x) < Mathf.Abs(trajectoryRange.normalized.y)) 
+        if (Mathf.Abs(trajectoryRange.normalized.x) < Mathf.Abs(trajectoryRange.normalized.y))
         {
             if (trajectoryRange.y < 0)
             {
@@ -64,7 +82,8 @@ public class Projectile : MonoBehaviour
             }
 
             UpdatePositionWithXCurve();
-        } else
+        }
+        else
         {
             if (trajectoryRange.x < 0)
             {
@@ -138,12 +157,13 @@ public class Projectile : MonoBehaviour
     public void InitializeProjectile(GameObject target, GameObject attacker, float maxMoveSpeed, float force, float knockback)
     {
         this._target = target;
+        this._targetPosition = target.transform.position;
         this._attacker = attacker;
         this._maxMoveSpeed = maxMoveSpeed;
         this._force = force;
         this._knockback = knockback;
 
-        _projectileVisual.SetTarget(target);
+        _projectileVisual.SetTarget(target.transform.position);
     }
 
     public void InitializeAnimationCurve(AnimationCurve trajectoryAnimationCurve, AnimationCurve axisCorrectionAnimationCurve, AnimationCurve projectileSpeedAnimationCurve, float trajectoryMaxHeight)

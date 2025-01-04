@@ -11,11 +11,12 @@ GameObject:
   - component: {fileID: 5263189203143068992}
   - component: {fileID: 26246474127916247}
   - component: {fileID: 7692992127329900033}
-  - component: {fileID: 1131141459437193863}
-  - component: {fileID: -6136762309310973827}
+  - component: {fileID: 2251282027865893993}
+  - component: {fileID: 1558856768138275409}
+  - component: {fileID: 9115082356192666681}
   - component: {fileID: 1933455698141882868}
   m_Layer: 3
-  m_Name: Wall
+  m_Name: Mine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,8 +78,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
+  m_Sprite: {fileID: -1784752587, guid: 757afdeda235030478a47483866f63e9, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -102,12 +103,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainRenderer: {fileID: 26246474127916247}
   Size: {x: 1, y: 1}
-  _price: 50
-  _priceModifier: 1
+  _price: 100
+  _priceModifier: 2
   _originalPrefab: {fileID: 9152741086448695794}
   _building:
     _buildingSettings: []
---- !u!114 &1131141459437193863
+--- !u!114 &2251282027865893993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9152741086448695794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c182ca94b67b3b49aa55c3e02ace013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _moneyPerTime: 20
+  _moneyControl: {fileID: 0}
+--- !u!114 &1558856768138275409
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,8 +134,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef722821130e54f49b346dd3746066d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 75
---- !u!208 &-6136762309310973827
+  _health: 25
+--- !u!208 &9115082356192666681
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

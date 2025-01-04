@@ -1,3 +1,4 @@
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
@@ -6,10 +7,12 @@ public class BuildingsGrid : MonoBehaviour
 {
     public Vector2Int GridSize = new Vector2Int(10, 10);
 
-    private Building[,] grid;
+    public Building[,] grid;
     public Building flyingBuilding;
     public GameObject Base;
     public Camera mainCamera;
+
+    private float _curBuildingPrice;
 
     public int BaseX;
     public int BaseY;
@@ -27,7 +30,14 @@ public class BuildingsGrid : MonoBehaviour
         {
             Destroy(flyingBuilding.gameObject);
         }
-        if (Camera.main.gameObject.GetComponent<MoneyController>()._moneyCount >= buildingPrefab.GetComponent<Building>()._price)
+        foreach (Buildings i in Camera.main.gameObject.GetComponent<MoneyController>()._buildings)
+        {
+            if (i.BuildingSettings[0]._name == buildingPrefab.name)
+            {
+                _curBuildingPrice = i.BuildingSettings[0]._price;
+            }
+        }
+        if (Camera.main.gameObject.GetComponent<MoneyController>()._moneyCount >= _curBuildingPrice)
         {
             flyingBuilding = Instantiate(buildingPrefab);
             flyingBuilding.GetComponent<NavMeshObstacle>().enabled = false;
@@ -110,6 +120,14 @@ public class BuildingsGrid : MonoBehaviour
 
         flyingBuilding.SetNormal();
         flyingBuilding.GetComponent<BoxCollider2D>().enabled = true;
+        if (flyingBuilding.GetComponent<BuildingSpriteConnecting>() != null)
+        {
+            foreach (GameObject i in Resources.FindObjectsOfTypeAll<GameObject>().Where(obj => obj.name == flyingBuilding.name && obj.tag == flyingBuilding.tag))
+            {
+                i.GetComponent<BuildingSpriteConnecting>().UpdateTexture();
+                Debug.Log(i);
+            }
+        }
         flyingBuilding = null;
     }
 }
