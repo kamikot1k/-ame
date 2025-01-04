@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using Mirror;
 
-public class Pawn : MonoBehaviour
+public class Pawn : NetworkBehaviour
 {
     [SerializeField] private float _health;
     [SerializeField] private float _speed;
@@ -43,6 +44,7 @@ public class Pawn : MonoBehaviour
     private void Start()
     {
         PawnSelectionManager.Instance.allPawns.Add(gameObject);
+        if (!isLocalPlayer) _enemyTeam = Camera.main.name;
         _rb = GetComponent<Rigidbody2D>();
         _sr = GetComponent<SpriteRenderer>();
         _agent = GetComponent<NavMeshAgent>();

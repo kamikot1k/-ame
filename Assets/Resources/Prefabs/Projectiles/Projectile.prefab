@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3194862966503045507}
   - component: {fileID: 8206005248112171682}
   - component: {fileID: 2492654781268551513}
+  - component: {fileID: 177327664330147687}
+  - component: {fileID: -6228942951299847209}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Untagged
@@ -63,6 +65,56 @@ MonoBehaviour:
   _projectileVisual: {fileID: 7501241790050198486}
   _projectileShadow: {fileID: 6923836609749756903}
   _projectile: {fileID: 8206005248112171682}
+--- !u!114 &177327664330147687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938457399160743683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  _assetId: 2379296193
+  serverOnly: 0
+  visibility: 0
+  hasSpawned: 0
+--- !u!114 &-6228942951299847209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938457399160743683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a553cb17010b2403e8523b558bffbc14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 1
+  syncMode: 0
+  syncInterval: 0
+  target: {fileID: 3194862966503045507}
+  syncPosition: 1
+  syncRotation: 1
+  syncScale: 0
+  onlySyncOnChange: 1
+  compressRotation: 1
+  interpolatePosition: 1
+  interpolateRotation: 1
+  interpolateScale: 1
+  coordinateSpace: 0
+  timelineOffset: 1
+  showGizmos: 0
+  showOverlay: 0
+  overlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+  bufferResetMultiplier: 3
+  positionSensitivity: 0.01
+  rotationSensitivity: 0.01
+  scaleSensitivity: 0.01
 --- !u!1 &5678163798359209464
 GameObject:
   m_ObjectHideFlags: 0

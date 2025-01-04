@@ -1,7 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
+using Mirror;
 
-public class MoneyController : MonoBehaviour
+public class MoneyController : NetworkBehaviour
 {
     [SerializeField] private float _getMoneyDelay;
     public Text _moneyCountText;
@@ -10,8 +11,15 @@ public class MoneyController : MonoBehaviour
     private float _getMoneyTimer;
     public Buildings[] _buildings;
 
+    private void Start()
+    {
+        _moneyCountText = GameObject.FindGameObjectWithTag("moneyText").GetComponent<Text>();
+    }
+
     private void Update()
     {
+        if (!isLocalPlayer) return;
+
         if (_getMoneyTimer < _getMoneyDelay)
         {
             _getMoneyTimer += Time.deltaTime;

@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using Mirror;
 
-public class Barracks : MonoBehaviour
+public class Barracks : NetworkBehaviour
 {
     public List<GameObject> _trainQueue;
     [SerializeField] private List<TimerTip> _timerTipList;
@@ -17,12 +18,16 @@ public class Barracks : MonoBehaviour
 
     private void Start()
     {
+        if (!isLocalPlayer) return;
+
         _camera = Camera.main.gameObject;
         gameObject.tag = _camera.name;
     }
 
     private void Update()
     {
+        if (!isLocalPlayer) return;
+
         if (Input.GetMouseButtonDown(0))
         {
             Vector3 ray = Camera.main.ScreenToWorldPoint(Input.mousePosition);

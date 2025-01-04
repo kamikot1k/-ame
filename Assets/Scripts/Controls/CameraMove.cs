@@ -1,8 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using Mirror;
 
-public class CameraMove : MonoBehaviour
+public class CameraMove : NetworkBehaviour
 {
     [SerializeField] private KeyCode cameraUp = KeyCode.W;
     [SerializeField] private KeyCode cameraLeft = KeyCode.A;
@@ -15,6 +14,8 @@ public class CameraMove : MonoBehaviour
 
     private void Start()
     {
+        _map = GameObject.FindGameObjectWithTag("Ground");
+
         _minX = _map.transform.position.x - _map.GetComponent<Renderer>().bounds.size.x / 2f;
         _maxX = _map.transform.position.x + _map.GetComponent<Renderer>().bounds.size.x / 2f;
 
@@ -24,6 +25,12 @@ public class CameraMove : MonoBehaviour
 
     private void Update()
     {
+        if (!isLocalPlayer)
+        {
+            gameObject.SetActive(false);
+            return;
+        }
+
         if (Input.GetKey(cameraUp)) 
         {
             gameObject.transform.Translate(0, _cameraMoveSpeed * Time.deltaTime, 0);

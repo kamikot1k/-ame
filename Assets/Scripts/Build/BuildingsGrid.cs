@@ -1,9 +1,9 @@
 using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
+using Mirror;
 
-public class BuildingsGrid : MonoBehaviour
+public class BuildingsGrid : NetworkBehaviour
 {
     public Vector2Int GridSize = new Vector2Int(10, 10);
 
@@ -20,8 +20,6 @@ public class BuildingsGrid : MonoBehaviour
     private void Awake()
     {
         grid = new Building[GridSize.x, GridSize.y];
-
-        mainCamera = Camera.main;
     }
 
     public void StartPlacingBuilding(Building buildingPrefab)
@@ -50,12 +48,12 @@ public class BuildingsGrid : MonoBehaviour
 
     private void Update()
     {
-        if (flyingBuilding != null)
+        if (flyingBuilding != null && isLocalPlayer)
         {
             flyingBuilding.GetComponent<BoxCollider2D>().enabled = false;
 
             var groundPlane = new Plane(Vector3.forward, Vector3.zero);
-            Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
             if (groundPlane.Raycast(ray, out float position))
             {
@@ -125,9 +123,9 @@ public class BuildingsGrid : MonoBehaviour
             foreach (GameObject i in Resources.FindObjectsOfTypeAll<GameObject>().Where(obj => obj.name == flyingBuilding.name && obj.tag == flyingBuilding.tag))
             {
                 i.GetComponent<BuildingSpriteConnecting>().UpdateTexture();
-                Debug.Log(i);
             }
         }
+        flyingBuilding.tag = mainCamera.name;
         flyingBuilding = null;
     }
 }

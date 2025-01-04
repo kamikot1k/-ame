@@ -1,6 +1,7 @@
 using UnityEngine;
+using Mirror;
 
-public class PawnSelectionBox : MonoBehaviour
+public class PawnSelectionBox : NetworkBehaviour
 {
     Camera _camera;
 
@@ -22,6 +23,8 @@ public class PawnSelectionBox : MonoBehaviour
 
     private void Update()
     {
+        if (!isLocalPlayer) return;
+
         if (Input.GetMouseButtonDown(0))
         {
             startPosition = Input.mousePosition;

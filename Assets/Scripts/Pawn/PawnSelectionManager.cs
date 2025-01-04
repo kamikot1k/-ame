@@ -1,10 +1,8 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
+using Mirror;
 
-public class PawnSelectionManager : MonoBehaviour
+public class PawnSelectionManager : NetworkBehaviour
 {
     public static PawnSelectionManager Instance { get; set; }
 
@@ -36,12 +34,14 @@ public class PawnSelectionManager : MonoBehaviour
 
     private void Update()
     {
+        if (!isLocalPlayer) return;
+
         if (Input.GetMouseButtonDown(0))
         {
             Vector3 ray = _camera.ScreenToWorldPoint(Input.mousePosition);
             RaycastHit2D _hit = Physics2D.Raycast(ray, Vector2.zero, Mathf.Infinity, _pawnMask);
 
-            if (_hit)
+            if (_hit && _camera.CompareTag(_hit.collider.gameObject.tag))
             {
                 if (Input.GetKey(KeyCode.LeftShift))
                 {
