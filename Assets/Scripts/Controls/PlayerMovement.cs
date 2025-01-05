@@ -1,7 +1,7 @@
 using UnityEngine;
 using Mirror;
 
-public class CameraMove : NetworkBehaviour
+public class PlayerMovement : NetworkBehaviour
 {
     [SerializeField] private KeyCode cameraUp = KeyCode.W;
     [SerializeField] private KeyCode cameraLeft = KeyCode.A;
@@ -25,11 +25,7 @@ public class CameraMove : NetworkBehaviour
 
     private void Update()
     {
-        if (!isLocalPlayer)
-        {
-            gameObject.SetActive(false);
-            return;
-        }
+        if (!isLocalPlayer) return;
 
         if (Input.GetKey(cameraUp)) 
         {
@@ -49,6 +45,9 @@ public class CameraMove : NetworkBehaviour
         }
 
         gameObject.transform.position = ClampCamera(transform.position);
+
+        Transform cameraTransform = Camera.main.transform;
+        cameraTransform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, cameraTransform.position.z);
     }
 
     private Vector3 ClampCamera(Vector3 targetPosition) {

@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Mirror;
+using Unity.VisualScripting;
 
 public class PawnSelectionManager : NetworkBehaviour
 {
@@ -34,14 +35,12 @@ public class PawnSelectionManager : NetworkBehaviour
 
     private void Update()
     {
-        if (!isLocalPlayer) return;
-
         if (Input.GetMouseButtonDown(0))
         {
             Vector3 ray = _camera.ScreenToWorldPoint(Input.mousePosition);
             RaycastHit2D _hit = Physics2D.Raycast(ray, Vector2.zero, Mathf.Infinity, _pawnMask);
 
-            if (_hit && _camera.CompareTag(_hit.collider.gameObject.tag))
+            if (_hit && NetworkClient.localPlayer.gameObject.name == _hit.collider.gameObject.GetComponent<Pawn>()._team)
             {
                 if (Input.GetKey(KeyCode.LeftShift))
                 {

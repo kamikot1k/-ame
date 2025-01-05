@@ -1,8 +1,11 @@
 using System.Collections.Generic;
 using UnityEngine;
+using Mirror;
 
-public class Building : MonoBehaviour
+public class Building : NetworkBehaviour
 {
+    public string _team;
+
     public Renderer MainRenderer;
     public Vector2Int Size = Vector2Int.one;
     public float _price;
@@ -12,7 +15,7 @@ public class Building : MonoBehaviour
 
     private void Start()
     {
-        foreach (Buildings i in Camera.main.gameObject.GetComponent<MoneyController>()._buildings)
+        foreach (Buildings i in NetworkClient.localPlayer.gameObject.GetComponent<MoneyController>()._buildings)
         {
             if (i.BuildingSettings[0]._name == gameObject.name.Remove(i.BuildingSettings[0]._name.Length, gameObject.name.Length - i.BuildingSettings[0]._name.Length))
             {

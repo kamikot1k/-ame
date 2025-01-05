@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using Mirror;
 
 public class PriceTip : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class PriceTip : MonoBehaviour
     {
         if (_prefab.layer == 3)
         {
-            foreach (Buildings i in Camera.main.gameObject.GetComponent<MoneyController>()._buildings)
+            foreach (Buildings i in NetworkClient.localPlayer.gameObject.GetComponent<MoneyController>()._buildings)
             {
                 if (i.BuildingSettings[0]._name == _prefab.name)
                 {

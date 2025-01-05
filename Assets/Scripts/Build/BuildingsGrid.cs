@@ -8,7 +8,9 @@ public class BuildingsGrid : NetworkBehaviour
     public Vector2Int GridSize = new Vector2Int(10, 10);
 
     public Building[,] grid;
-    public Building flyingBuilding;
+
+    public GameObject flyingBuilding;
+
     public GameObject Base;
     public Camera mainCamera;
 
@@ -22,23 +24,24 @@ public class BuildingsGrid : NetworkBehaviour
         grid = new Building[GridSize.x, GridSize.y];
     }
 
-    public void StartPlacingBuilding(Building buildingPrefab)
+    public void StartPlacingBuilding(GameObject buildingPrefab)
     {
         if (flyingBuilding != null)
         {
-            Destroy(flyingBuilding.gameObject);
+            Destroy(flyingBuilding);
         }
-        foreach (Buildings i in Camera.main.gameObject.GetComponent<MoneyController>()._buildings)
+        foreach (Buildings i in NetworkClient.localPlayer.gameObject.GetComponent<MoneyController>()._buildings)
         {
             if (i.BuildingSettings[0]._name == buildingPrefab.name)
             {
                 _curBuildingPrice = i.BuildingSettings[0]._price;
             }
         }
-        if (Camera.main.gameObject.GetComponent<MoneyController>()._moneyCount >= _curBuildingPrice)
+        if (NetworkClient.localPlayer.gameObject.GetComponent<MoneyController>()._moneyCount >= _curBuildingPrice)
         {
             flyingBuilding = Instantiate(buildingPrefab);
             flyingBuilding.GetComponent<NavMeshObstacle>().enabled = false;
+            flyingBuilding.GetComponent<BoxCollider2D>().enabled = false;
             if (flyingBuilding.GetComponent<Barracks>() != null)
             {
                 flyingBuilding.GetComponent<Barracks>().enabled = false;
@@ -48,10 +51,8 @@ public class BuildingsGrid : NetworkBehaviour
 
     private void Update()
     {
-        if (flyingBuilding != null && isLocalPlayer)
+        if (flyingBuilding != null)
         {
-            flyingBuilding.GetComponent<BoxCollider2D>().enabled = false;
-
             var groundPlane = new Plane(Vector3.forward, Vector3.zero);
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
@@ -64,23 +65,23 @@ public class BuildingsGrid : NetworkBehaviour
 
                 bool available = true;
 
-                if (x < BaseX || x > GridSize.x - flyingBuilding.Size.x) available = false;
-                if (y < BaseY || y > GridSize.y - flyingBuilding.Size.y) available = false;
+                if (x < BaseX || x > GridSize.x - flyingBuilding.GetComponent<Building>().Size.x) available = false;
+                if (y < BaseY || y > GridSize.y - flyingBuilding.GetComponent<Building>().Size.y) available = false;
 
                 if (available && IsPlaceTaken(x, y)) available = false;
 
                 flyingBuilding.transform.position = new Vector3(x, y, 0);
-                flyingBuilding.SetTransparent(available);
+                flyingBuilding.GetComponent<Building>().SetTransparent(available);
 
                 if (available && Input.GetMouseButtonDown(0))
                 {
-                    Camera.main.gameObject.GetComponent<MoneyController>()._moneyCount -= flyingBuilding.GetComponent<Building>()._price;
+                    NetworkClient.localPlayer.gameObject.GetComponent<MoneyController>()._moneyCount -= flyingBuilding.GetComponent<Building>()._price;
                     if (flyingBuilding.GetComponent<Mine>() != null)
                     {
                         flyingBuilding.GetComponent<Mine>().AddMoneyPerTime();
                     }
                     flyingBuilding.GetComponent<Building>()._building.BuildingSettings[0]._price *= flyingBuilding.GetComponent<Building>()._priceModifier;
-                    Camera.main.gameObject.GetComponent<MoneyController>()._moneyCountText.text = Camera.main.gameObject.GetComponent<MoneyController>()._moneyCount.ToString();
+                    NetworkClient.localPlayer.gameObject.GetComponent<MoneyController>()._moneyCountText.text = NetworkClient.localPlayer.gameObject.GetComponent<MoneyController>()._moneyCount.ToString();
                     flyingBuilding.GetComponent<Renderer>().sortingOrder = 0;
                     flyingBuilding.GetComponent<NavMeshObstacle>().enabled = true;
                     if (flyingBuilding.GetComponent<Barracks>() != null)
@@ -95,9 +96,9 @@ public class BuildingsGrid : NetworkBehaviour
 
     private bool IsPlaceTaken(int placeX, int placeY)
     {
-        for (int x = 0; x < flyingBuilding.Size.x; x++)
+        for (int x = 0; x < flyingBuilding.GetComponent<Building>().Size.x; x++)
         {
-            for (int y = 0; y < flyingBuilding.Size.y; y++)
+            for (int y = 0; y < flyingBuilding.GetComponent<Building>().Size.y; y++)
             {
                 if (grid[placeX + x, placeY + y] != null) return true;
             }
@@ -108,15 +109,16 @@ public class BuildingsGrid : NetworkBehaviour
 
     private void PlaceFlyingBuilding(int placeX, int placeY)
     {
-        for (int x = 0; x < flyingBuilding.Size.x; x++)
+
+        for (int x = 0; x < flyingBuilding.GetComponent<Building>().Size.x; x++)
         {
-            for (int y = 0; y < flyingBuilding.Size.y; y++)
+            for (int y = 0; y < flyingBuilding.GetComponent<Building>().Size.y; y++)
             {
-                grid[placeX + x, placeY + y] = flyingBuilding;
+                grid[placeX + x, placeY + y] = flyingBuilding.GetComponent<Building>();
             }
         }
 
-        flyingBuilding.SetNormal();
+        flyingBuilding.GetComponent<Building>().SetNormal();
         flyingBuilding.GetComponent<BoxCollider2D>().enabled = true;
         if (flyingBuilding.GetComponent<BuildingSpriteConnecting>() != null)
         {
@@ -125,7 +127,14 @@ public class BuildingsGrid : NetworkBehaviour
                 i.GetComponent<BuildingSpriteConnecting>().UpdateTexture();
             }
         }
-        flyingBuilding.tag = mainCamera.name;
+        flyingBuilding.GetComponent<Building>()._team = NetworkClient.localPlayer.gameObject.name;
+        PlaceBuilding();
         flyingBuilding = null;
+    }
+
+    [Server]
+    public void PlaceBuilding()
+    {
+        NetworkServer.Spawn(flyingBuilding);
     }
 }

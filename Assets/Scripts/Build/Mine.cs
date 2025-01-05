@@ -10,7 +10,7 @@ public class Mine : NetworkBehaviour
 
     private void Start()
     {
-        _moneyControl = Camera.main.gameObject.GetComponent<MoneyController>();
+        _moneyControl = NetworkClient.localPlayer.gameObject.GetComponent<MoneyController>();
     }
 
     public void AddMoneyPerTime()

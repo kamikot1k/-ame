@@ -23,8 +23,6 @@ public class PawnSelectionBox : NetworkBehaviour
 
     private void Update()
     {
-        if (!isLocalPlayer) return;
-
         if (Input.GetMouseButtonDown(0))
         {
             startPosition = Input.mousePosition;
@@ -93,7 +91,7 @@ public class PawnSelectionBox : NetworkBehaviour
     {
         foreach (var unit in PawnSelectionManager.Instance.allPawns)
         {
-            if (selectionBox.Contains(_camera.WorldToScreenPoint(unit.transform.position)))
+            if (selectionBox.Contains(_camera.WorldToScreenPoint(unit.transform.position)) && unit.GetComponent<Pawn>()._team == NetworkClient.localPlayer.name)
             {
                 PawnSelectionManager.Instance.DragSelect(unit);
             }

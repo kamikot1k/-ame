@@ -13,6 +13,7 @@ public class Pawn : NetworkBehaviour
     [SerializeField] private float _knockbackDelay;
     [SerializeField] private float _attackRange;
     [SerializeField] private float _visibleDistance;
+    public string _team;
     [SerializeField] private string _enemyTeam;
     [SerializeField] private float _attackCooldown;
     [SerializeField] private float _attackTime;
@@ -44,7 +45,7 @@ public class Pawn : NetworkBehaviour
     private void Start()
     {
         PawnSelectionManager.Instance.allPawns.Add(gameObject);
-        if (!isLocalPlayer) _enemyTeam = Camera.main.name;
+        _enemyTeam = Camera.main.name;
         _rb = GetComponent<Rigidbody2D>();
         _sr = GetComponent<SpriteRenderer>();
         _agent = GetComponent<NavMeshAgent>();
